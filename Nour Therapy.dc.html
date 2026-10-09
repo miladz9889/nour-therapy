@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; background: oklch(0.975 0.012 70); color: oklch(0.28 0.035 40); -webkit-font-smoothing: antialiased; }
+  a { color: oklch(0.52 0.14 35); text-decoration: none; text-underline-offset: 4px; }
+  a:hover { color: oklch(0.42 0.13 30); text-decoration: underline; }
+  summary { list-style: none; cursor: pointer; }
+  summary::-webkit-details-marker { display: none; }
+  details[open] .plus { transform: rotate(45deg); }
+  input, textarea, select { font: inherit; color: inherit; }
+  input:focus, textarea:focus, select:focus { outline: 2px solid oklch(0.72 0.13 55); outline-offset: 1px; }
+</style>
+</helmet>
+
+<div style="font-family: Karla, system-ui, sans-serif; font-size: 17px; line-height: 1.65; background: oklch(0.975 0.012 70);">
+  <div style="display: grid; grid-template-columns: clamp(200px, 20vw, 268px) minmax(0, 1fr); max-width: 1440px; margin: 0 auto;">
+
+    <aside style="position: sticky; top: 0; align-self: start; height: 100vh; padding: clamp(36px, 5vw, 56px) clamp(24px, 3vw, 40px) clamp(32px, 4vw, 48px) clamp(28px, 4vw, 56px); display: flex; flex-direction: column; justify-content: space-between; border-right: 1px solid oklch(0.9 0.02 60);">
+      <div>
+        <a href="#top" style="display: block; color: oklch(0.28 0.035 40);" style-hover="text-decoration: none; color: oklch(0.28 0.035 40);">
+          <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 36px; line-height: 1; letter-spacing: 0.01em;">Nour</div>
+          <div style="font-size: 10.5px; letter-spacing: 0.34em; text-transform: uppercase; color: oklch(0.55 0.05 45); margin-top: 10px;">Therapy</div>
+        </a>
+        <div style="width: 26px; height: 1px; background: oklch(0.72 0.13 65); margin: 26px 0 30px;"></div>
+        <nav style="display: flex; flex-direction: column; gap: 13px; font-size: 14.5px;">
+          <a href="#about" style="color: oklch(0.38 0.04 42);">About Samar</a>
+          <a href="#services" style="color: oklch(0.38 0.04 42);">Who I work with</a>
+          <a href="#expect" style="color: oklch(0.38 0.04 42);">What to expect</a>
+          <a href="#fees" style="color: oklch(0.38 0.04 42);">Fees &amp; insurance</a>
+          <a href="#faq" style="color: oklch(0.38 0.04 42);">Questions</a>
+          <a href="#writing" style="color: oklch(0.38 0.04 42);">Writing</a>
+          <a href="#contact" style="color: oklch(0.38 0.04 42);">Get in touch</a>
+        </nav>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 20px;">
+        <a href="#contact" style="display: inline-flex; align-items: center; justify-content: center; padding: 13px 18px; background: oklch(0.52 0.14 35); color: oklch(0.98 0.012 70); font-size: 14px; letter-spacing: 0.02em;" style-hover="background: oklch(0.44 0.14 32); color: oklch(0.98 0.012 70); text-decoration: none;">Book a free consult</a>
+        <div style="font-size: 12.5px; line-height: 1.65; color: oklch(0.6 0.04 45);">In person by appointment<br>Online sessions statewide</div>
+      </div>
+    </aside>
+
+    <main id="top" style="min-width: 0;">
+
+      <section style="padding: clamp(56px, 7vw, 96px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="display: flex; align-items: baseline; gap: 14px; font-size: 12px; letter-spacing: 0.26em; text-transform: uppercase; color: oklch(0.62 0.1 55);">
+          <span>Nour</span><span style="opacity: 0.5;">·</span><span style="font-size: 17px; letter-spacing: 0; text-transform: none;">نور</span><span style="opacity: 0.5;">·</span><span>light</span>
+        </div>
+        <h1 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(44px, 6.2vw, 82px); line-height: 1.05; letter-spacing: -0.015em; margin: 26px 0 0; max-width: 15ch; text-wrap: balance;">A warm room, and time to say the true thing.</h1>
+        <p style="max-width: 47ch; margin: 30px 0 0; font-size: 19px; line-height: 1.7; color: oklch(0.42 0.035 42);">I'm Samar Farange. I offer counseling for adults, couples, teens, and families — including new parents and folks living between cultures. We go at your pace, and I'll be a real person with you in the room.</p>
+        <div style="display: flex; align-items: center; gap: 28px; margin-top: 38px; flex-wrap: wrap;">
+          <a href="#contact" style="display: inline-flex; align-items: center; padding: 15px 26px; background: oklch(0.52 0.14 35); color: oklch(0.98 0.012 70); font-size: 15px;" style-hover="background: oklch(0.44 0.14 32); color: oklch(0.98 0.012 70); text-decoration: none;">Book a free 20-minute consult</a>
+          <a href="#expect" style="font-size: 15px; border-bottom: 1px solid oklch(0.8 0.08 55); padding-bottom: 2px;">What a first session looks like</a>
+        </div>
+
+        <div style="margin-top: 72px;">
+          <div style="position: relative; height: 330px; overflow: hidden; background: oklch(0.9 0.05 60);">
+            <img src="https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=1600&h=660&q=70" alt="Sunrise over the horizon" style="width: 100%; height: 100%; object-fit: cover; object-position: center 60%; display: block; filter: saturate(1.05) contrast(1.02);">
+            <div style="position: absolute; inset: 0; background: linear-gradient(115deg, oklch(0.62 0.16 34 / 0.28) 0%, oklch(0.82 0.14 62 / 0.16) 55%, oklch(0.95 0.09 92 / 0.1) 100%); mix-blend-mode: multiply;"></div>
+          </div>
+          <div style="height: 4px; background: linear-gradient(90deg, oklch(0.52 0.15 30), oklch(0.72 0.14 55) 55%, oklch(0.85 0.11 88));"></div>
+        </div>
+      </section>
+
+      <section style="padding: clamp(52px, 6vw, 80px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <p style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: clamp(23px, 2.4vw, 31px); font-weight: 300; line-height: 1.45; max-width: 31ch; margin: 0; color: oklch(0.34 0.05 38);"><em>Nour</em> means light in Farsi. Not a spotlight — the kind that comes in slowly, late in the day, and makes a room legible again.</p>
+      </section>
+
+      <section id="about" style="padding: clamp(56px, 7vw, 96px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="display: grid; grid-template-columns: minmax(190px, 300px) minmax(320px, 1fr); gap: clamp(28px, 4vw, 56px); align-items: start;">
+          <div style="aspect-ratio: 4 / 5; overflow: hidden; background: oklch(0.91 0.05 45);">
+            <img src="uploads/pasted-1786400880691-0.png" alt="Samar Farange" style="width: 100%; height: 100%; object-fit: cover; object-position: center 22%; display: block;">
+          </div>
+          <div>
+            <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.62 0.1 55);">About</div>
+            <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.15; margin: 20px 0 0;">Samar Farange</h2>
+            <div style="font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: oklch(0.58 0.06 48); margin-top: 12px;">Licensed therapist · founder of Nour Therapy</div>
+            <div style="width: 26px; height: 1px; background: oklch(0.72 0.13 65); margin: 26px 0;"></div>
+            <p style="margin: 0 0 20px; max-width: 60ch; color: oklch(0.38 0.035 42);">I became a therapist because I saw what happens when someone is finally listened to properly. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.</p>
+            <p style="margin: 0 0 20px; max-width: 60ch; color: oklch(0.38 0.035 42);">I work with individuals, couples, teens, and families. Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under everything, grief that came too early, or family expectations that no longer fit the life they are building.</p>
+            <p style="margin: 0 0 20px; max-width: 60ch; color: oklch(0.38 0.035 42);">Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations about who you are allowed to be, you are welcome here. You will not have to explain it from scratch.</p>
+            <p style="margin: 0; max-width: 60ch; color: oklch(0.38 0.035 42);">Therapy works best when it feels like a real relationship, so I will tell you honestly what I think, and I will always leave room for you to disagree.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 30px;">
+              <span style="border: 1px solid oklch(0.86 0.05 60); padding: 7px 13px; font-size: 13px; color: oklch(0.45 0.05 45);">License no. — add</span>
+              <span style="border: 1px solid oklch(0.86 0.05 60); padding: 7px 13px; font-size: 13px; color: oklch(0.45 0.05 45);">Individuals &amp; couples</span>
+              <span style="border: 1px solid oklch(0.86 0.05 60); padding: 7px 13px; font-size: 13px; color: oklch(0.45 0.05 45);">Teens &amp; families</span>
+              <span style="border: 1px solid oklch(0.86 0.05 60); padding: 7px 13px; font-size: 13px; color: oklch(0.45 0.05 45);">In person &amp; online</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" style="padding: clamp(64px, 7vw, 104px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.62 0.1 55);">Who I work with</div>
+        <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.15; margin: 20px 0 44px; max-width: 26ch;">Five kinds of rooms</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1px; background: oklch(0.9 0.02 60);">
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.55 0.15 30); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">Individual adults</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">Weekly 50-minute sessions for anxiety, low mood, burnout, grief, self-worth, and the big turns — a move, a diagnosis, a divorce. Long-term work or a focused stretch; both are legitimate.</p>
+          </div>
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.62 0.15 42); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">Couples</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">For partners stuck in the same argument, rebuilding after a betrayal or a hard year, or trying to decide honestly what comes next. 75 minutes, both of you talking to each other more than to me.</p>
+          </div>
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.7 0.14 55); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">Teens</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">A space of their own, with clear boundaries about what stays private. I keep parents informed about the shape of the work without reporting on the contents of it.</p>
+          </div>
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.78 0.13 72); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">Families</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says.</p>
+          </div>
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.84 0.11 88); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">New &amp; expecting parents</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">Pregnancy, birth, postpartum, loss, and the strange grief of a life reorganizing itself. Bring the baby if that's what makes it possible.</p>
+          </div>
+          <div style="background: oklch(0.975 0.012 70); padding: 34px 36px 38px;">
+            <div style="width: 18px; height: 2px; background: oklch(0.6 0.13 22); margin-bottom: 20px;"></div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 27px; margin: 0 0 12px;">Immigrants &amp; first-gen</h3>
+            <p style="margin: 0; font-size: 16px; color: oklch(0.42 0.035 42);">Displacement, homesickness, obligation, and the quiet cost of being the one who translates. Belonging in two places, or feeling like you belong in neither.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="expect" style="margin-top: 104px; background: oklch(0.955 0.024 60); padding: clamp(56px, 7vw, 88px) clamp(28px, 6vw, 88px) clamp(60px, 7vw, 92px) clamp(28px, 5vw, 72px);">
+        <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.6 0.1 50);">What to expect</div>
+        <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.15; margin: 20px 0 12px; max-width: 26ch;">Starting is the hardest part. So here is all of it.</h2>
+        <p style="max-width: 52ch; margin: 0 0 48px; color: oklch(0.42 0.035 42);">Nothing about this should be a surprise. You'll know what happens, what it costs, and what I'll ask of you before you commit to anything.</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: clamp(28px, 3vw, 40px);">
+          <div style="border-top: 1px solid oklch(0.82 0.06 55); padding-top: 22px;">
+            <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; color: oklch(0.62 0.15 42); line-height: 1;">01</div>
+            <h3 style="font-size: 17px; font-weight: 600; margin: 16px 0 10px;">A free 20-minute call</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.42 0.035 42);">You tell me what's going on, I tell you how I'd think about it, and we both decide whether I'm the right fit. If I'm not, I'll say so and point you somewhere better.</p>
+          </div>
+          <div style="border-top: 1px solid oklch(0.82 0.06 55); padding-top: 22px;">
+            <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; color: oklch(0.62 0.15 42); line-height: 1;">02</div>
+            <h3 style="font-size: 17px; font-weight: 600; margin: 16px 0 10px;">The first two sessions</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.42 0.035 42);">History, context, and what you want to be different. By the end of the second we'll have named the work in plain language, together.</p>
+          </div>
+          <div style="border-top: 1px solid oklch(0.82 0.06 55); padding-top: 22px;">
+            <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 32px; color: oklch(0.62 0.15 42); line-height: 1;">03</div>
+            <h3 style="font-size: 17px; font-weight: 600; margin: 16px 0 10px;">Then, ongoing</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.42 0.035 42);">Usually weekly, same day and time, so it becomes something you don't have to decide about. Every couple of months we check whether it's working.</p>
+          </div>
+        </div>
+      </section>
+
+      <sc-if value="{{ showFees }}" hint-placeholder-val="{{ true }}">
+      <section id="fees" style="padding: clamp(56px, 7vw, 96px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="display: grid; grid-template-columns: minmax(330px, 1fr) minmax(210px, 300px); gap: clamp(28px, 4vw, 64px); align-items: start;">
+          <div>
+            <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.62 0.1 55);">Fees &amp; insurance</div>
+            <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.15; margin: 20px 0 36px;">Plainly stated</h2>
+            <div style="display: flex; flex-direction: column;">
+              <div style="display: flex; justify-content: space-between; gap: 24px; padding: 18px 0; border-top: 1px solid oklch(0.9 0.02 60);">
+                <span>Individual session · 50 minutes</span><span style="font-variant-numeric: tabular-nums; color: oklch(0.4 0.05 40);">$180</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; gap: 24px; padding: 18px 0; border-top: 1px solid oklch(0.9 0.02 60);">
+                <span>Couples or family session · 75 minutes</span><span style="font-variant-numeric: tabular-nums; color: oklch(0.4 0.05 40);">$230</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; gap: 24px; padding: 18px 0; border-top: 1px solid oklch(0.9 0.02 60);">
+                <span>Initial consultation · 20 minutes</span><span style="color: oklch(0.4 0.05 40);">Free</span>
+              </div>
+              <div style="display: flex; justify-content: space-between; gap: 24px; padding: 18px 0; border-top: 1px solid oklch(0.9 0.02 60); border-bottom: 1px solid oklch(0.9 0.02 60);">
+                <span>Sliding-scale spots</span><span style="color: oklch(0.4 0.05 40);">A few, ask me</span>
+              </div>
+            </div>
+            <p style="max-width: 58ch; margin: 30px 0 0; font-size: 16px; color: oklch(0.42 0.035 42);">I'm out of network, which means you pay me directly and I give you a superbill each month to submit to your insurer. Many PPO plans reimburse a meaningful portion of an out-of-network session. If cost is the thing standing in the way, say so on our call — I'd rather solve it than lose you to it.</p>
+          </div>
+          <div style="background: oklch(0.955 0.024 60); padding: 30px 30px 34px;">
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 24px; margin: 0 0 16px;">Good to know</h3>
+            <div style="display: flex; flex-direction: column; gap: 14px; font-size: 15px; color: oklch(0.4 0.04 42);">
+              <div>Cancellations: 24 hours' notice, no charge.</div>
+              <div>Payment by card, HSA, or FSA.</div>
+              <div>Online sessions on a private, encrypted platform.</div>
+              <div>Sessions available in English.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </sc-if>
+
+      <section id="faq" style="padding: clamp(64px, 7vw, 104px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="display: grid; grid-template-columns: minmax(200px, 280px) minmax(330px, 1fr); gap: clamp(28px, 4vw, 56px); align-items: start;">
+          <div>
+            <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.62 0.1 55);">Questions</div>
+            <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(30px, 3.4vw, 42px); line-height: 1.15; margin: 20px 0 0;">Things people ask before they call</h2>
+          </div>
+          <div>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>How do I know if I need therapy?</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">You don't need a crisis to qualify. If something has been sitting on you and talking to the people around you hasn't moved it, that's reason enough. The consult call exists partly so you can ask me this directly.</p>
+            </details>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>What actually happens in a session?</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">We talk, but with more structure than a conversation with a friend. I'll ask questions, notice patterns out loud, and sometimes suggest something to try between sessions. You are never obligated to discuss something before you're ready.</p>
+            </details>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>How long will this take?</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">Some people come for a few months around a specific difficulty. Others stay for years because the work keeps being useful. We'll revisit it regularly, and ending well is part of the work, not a failure of it.</p>
+            </details>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>Is what I say confidential?</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">Yes, with the narrow legal exceptions I'm required to explain at the start: risk of serious harm to yourself or someone else, and suspected abuse of a child or vulnerable adult. I'll walk you through exactly what that means in our first session.</p>
+            </details>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>My teenager doesn't want to come.</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">That's normal and workable. I usually start with a parent call, then meet them once with no expectation of a second. Most of the time the reluctance is about control, so I hand them as much of it as I can.</p>
+            </details>
+            <details style="border-top: 1px solid oklch(0.9 0.02 60); border-bottom: 1px solid oklch(0.9 0.02 60);">
+              <summary style="display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 22px 0; font-size: 17.5px;">
+                <span>Are online sessions as good as in person?</span>
+                <span class="plus" style="flex: none; font-size: 20px; color: oklch(0.65 0.12 50); transition: transform 0.2s;">+</span>
+              </summary>
+              <p style="margin: 0 0 24px; max-width: 62ch; color: oklch(0.42 0.035 42); font-size: 16px;">For most of what I treat, yes — the research is reassuring and my own experience matches it. What matters more is consistency and a private place to sit. Some family work does go better in the room.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <sc-if value="{{ showWriting }}" hint-placeholder-val="{{ true }}">
+      <section id="writing" style="padding: clamp(64px, 7vw, 104px) clamp(28px, 6vw, 88px) 0 clamp(28px, 5vw, 72px);">
+        <div style="display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap;">
+          <div>
+            <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.62 0.1 55);">Writing &amp; resources</div>
+            <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(32px, 3.8vw, 46px); line-height: 1.15; margin: 20px 0 0;">Notes between sessions</h2>
+          </div>
+          <a href="#writing" style="font-size: 15px; border-bottom: 1px solid oklch(0.8 0.08 55); padding-bottom: 2px;">All writing</a>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: clamp(24px, 3vw, 32px); margin-top: 44px;">
+          <a href="#writing" style="display: block; color: inherit;" style-hover="text-decoration: none; color: inherit;">
+            <div style="position: relative; height: 150px; overflow: hidden; background: oklch(0.9 0.05 60);">
+            <img src="https://images.unsplash.com/photo-1754037783933-c25ff9f68f87?auto=format&fit=crop&w=800&h=400&q=70" alt="A cozy reading nook with a chair and plant" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; filter: saturate(1.05) contrast(1.02);">
+            <div style="position: absolute; inset: 0; background: linear-gradient(115deg, oklch(0.62 0.16 34 / 0.28) 0%, oklch(0.82 0.14 62 / 0.16) 55%, oklch(0.95 0.09 92 / 0.1) 100%); mix-blend-mode: multiply;"></div>
+          </div>
+            <div style="font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.08 50); margin-top: 18px;">Anxiety</div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 24px; line-height: 1.25; margin: 10px 0 8px;">When calming down isn't the goal</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.44 0.035 42);">Why chasing calm can make anxiety louder, and what to aim for instead.</p>
+          </a>
+          <a href="#writing" style="display: block; color: inherit;" style-hover="text-decoration: none; color: inherit;">
+            <div style="position: relative; height: 150px; overflow: hidden; background: oklch(0.9 0.05 60);">
+            <img src="https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=800&h=400&q=70" alt="Two people sitting at a table in conversation" style="width: 100%; height: 100%; object-fit: cover; object-position: center 40%; display: block; filter: saturate(1.05) contrast(1.02);">
+            <div style="position: absolute; inset: 0; background: linear-gradient(115deg, oklch(0.62 0.16 34 / 0.28) 0%, oklch(0.82 0.14 62 / 0.16) 55%, oklch(0.95 0.09 92 / 0.1) 100%); mix-blend-mode: multiply;"></div>
+          </div>
+            <div style="font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.08 50); margin-top: 18px;">Family</div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 24px; line-height: 1.25; margin: 10px 0 8px;">Honoring your parents and disappointing them</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.44 0.035 42);">On duty, distance, and the false choice between the two.</p>
+          </a>
+          <a href="#writing" style="display: block; color: inherit;" style-hover="text-decoration: none; color: inherit;">
+            <div style="position: relative; height: 150px; overflow: hidden; background: oklch(0.9 0.05 60);">
+            <img src="https://images.unsplash.com/photo-1512981566925-4937ba1d2b2c?auto=format&fit=crop&w=800&h=400&q=70" alt="Flowers in a vase on a sunlit desk" style="width: 100%; height: 100%; object-fit: cover; object-position: center; display: block; filter: saturate(1.05) contrast(1.02);">
+            <div style="position: absolute; inset: 0; background: linear-gradient(115deg, oklch(0.62 0.16 34 / 0.28) 0%, oklch(0.82 0.14 62 / 0.16) 55%, oklch(0.95 0.09 92 / 0.1) 100%); mix-blend-mode: multiply;"></div>
+          </div>
+            <div style="font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: oklch(0.62 0.08 50); margin-top: 18px;">New parents</div>
+            <h3 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 400; font-size: 24px; line-height: 1.25; margin: 10px 0 8px;">The fourth trimester nobody prepares you for</h3>
+            <p style="margin: 0; font-size: 15.5px; color: oklch(0.44 0.035 42);">What's ordinary after a birth, and what deserves help.</p>
+          </a>
+        </div>
+      </section>
+      </sc-if>
+
+      <section id="contact" style="margin-top: 104px; background: oklch(0.31 0.055 34); color: oklch(0.96 0.02 75); padding: clamp(56px, 7vw, 88px) clamp(28px, 6vw, 88px) clamp(60px, 7vw, 92px) clamp(28px, 5vw, 72px);">
+        <div style="display: grid; grid-template-columns: minmax(260px, 1fr) minmax(290px, 1.1fr); gap: clamp(32px, 4vw, 72px); align-items: start;">
+          <div>
+            <div style="font-size: 12px; letter-spacing: 0.28em; text-transform: uppercase; color: oklch(0.78 0.11 65);">Get in touch</div>
+            <h2 style="font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: clamp(34px, 4vw, 48px); line-height: 1.12; margin: 20px 0 0; max-width: 20ch;">Start with a free 20-minute call.</h2>
+            <p style="max-width: 44ch; margin: 24px 0 0; color: oklch(0.85 0.03 70);">Tell me a little about what's bringing you here. I answer every message myself, usually within two business days.</p>
+            <div style="width: 26px; height: 1px; background: oklch(0.78 0.12 65); margin: 34px 0 30px;"></div>
+            <div style="display: flex; flex-direction: column; gap: 12px; font-size: 15.5px; color: oklch(0.86 0.03 70);">
+              <div>hello@nourtherapy.com</div>
+              <div>Office address — add when confirmed</div>
+              <div>Online sessions available statewide</div>
+            </div>
+            <p style="max-width: 46ch; margin: 34px 0 0; font-size: 13.5px; line-height: 1.6; color: oklch(0.74 0.03 65);">This form isn't for emergencies and isn't a secure medical channel. If you're in crisis, call or text 988, or go to your nearest emergency room.</p>
+          </div>
+
+          <form onSubmit="{{ submit }}" style="display: flex; flex-direction: column; gap: 20px; background: oklch(0.35 0.05 34); padding: 34px 34px 36px;">
+            <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.82 0.04 70);">
+              Your name
+              <input type="text" name="name" placeholder="First and last" style="background: oklch(0.31 0.055 34); border: 1px solid oklch(0.46 0.05 40); color: oklch(0.96 0.02 75); padding: 13px 14px; font-size: 16px; letter-spacing: 0; text-transform: none;">
+            </label>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 20px;">
+              <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.82 0.04 70);">
+                Email
+                <input type="email" name="email" placeholder="you@email.com" style="background: oklch(0.31 0.055 34); border: 1px solid oklch(0.46 0.05 40); color: oklch(0.96 0.02 75); padding: 13px 14px; font-size: 16px; letter-spacing: 0; text-transform: none;">
+              </label>
+              <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.82 0.04 70);">
+                Phone <span style="text-transform: none; letter-spacing: 0; opacity: 0.6;">optional</span>
+                <input type="tel" name="phone" placeholder="(000) 000-0000" style="background: oklch(0.31 0.055 34); border: 1px solid oklch(0.46 0.05 40); color: oklch(0.96 0.02 75); padding: 13px 14px; font-size: 16px; letter-spacing: 0; text-transform: none;">
+              </label>
+            </div>
+            <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.82 0.04 70);">
+              What kind of support are you looking for?
+              <select name="kind" style="background: oklch(0.31 0.055 34); border: 1px solid oklch(0.46 0.05 40); color: oklch(0.96 0.02 75); padding: 13px 14px; font-size: 16px; letter-spacing: 0; text-transform: none;">
+                <option>Individual therapy</option>
+                <option>Couples counseling</option>
+                <option>Therapy for a teen</option>
+                <option>Family sessions</option>
+                <option>Pregnancy or postpartum support</option>
+                <option>Not sure yet</option>
+              </select>
+            </label>
+            <label style="display: flex; flex-direction: column; gap: 8px; font-size: 13.5px; letter-spacing: 0.06em; text-transform: uppercase; color: oklch(0.82 0.04 70);">
+              Anything you'd like me to know
+              <textarea name="note" rows="4" placeholder="A few sentences is plenty." style="background: oklch(0.31 0.055 34); border: 1px solid oklch(0.46 0.05 40); color: oklch(0.96 0.02 75); padding: 13px 14px; font-size: 16px; letter-spacing: 0; text-transform: none; resize: vertical;"></textarea>
+            </label>
+            <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; margin-top: 4px;">
+              <button type="submit" style="padding: 15px 28px; background: oklch(0.82 0.13 72); color: oklch(0.26 0.06 34); border: none; font-size: 15px; font-family: inherit; cursor: pointer;" style-hover="background: oklch(0.88 0.12 78);">Request a consult</button>
+              <span style="font-size: 14px; color: oklch(0.8 0.03 70);">{{ status }}</span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <footer style="padding: 40px clamp(28px, 6vw, 88px) 56px clamp(28px, 5vw, 72px); display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; flex-wrap: wrap;">
+        <div>
+          <div style="font-family: 'Cormorant Garamond', Georgia, serif; font-size: 26px;">Nour Therapy <span style="font-size: 17px; color: oklch(0.6 0.07 50);">نور</span></div>
+          <div style="font-size: 13px; color: oklch(0.6 0.04 45); margin-top: 8px;">Samar Farange · Licensed therapist</div>
+        </div>
+        <div style="display: flex; gap: 26px; font-size: 13px; color: oklch(0.6 0.04 45);">
+          <a href="#faq" style="color: oklch(0.55 0.05 45);">Good Faith Estimate</a>
+          <a href="#faq" style="color: oklch(0.55 0.05 45);">Privacy &amp; HIPAA</a>
+          <span>© 2026 Nour Therapy</span>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showFees&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;},&quot;showWriting&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Sections&quot;}}">
+class Component extends DCLogic {
+  state = { status: "" };
+  renderVals() {
+    return {
+      showFees: this.props.showFees ?? true,
+      showWriting: this.props.showWriting ?? true,
+      status: this.state.status,
+      submit: (e) => {
+        e.preventDefault();
+        this.setState({ status: "Thank you — I'll be in touch soon." });
+      },
+    };
+  }
+}
+</script>
+</body>
+</html>
