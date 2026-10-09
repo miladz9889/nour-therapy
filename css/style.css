@@ -32,15 +32,6 @@
   --contact-ink: oklch(0.96 0.02 75);
   --contact-label: oklch(0.78 0.11 65);
   --contact-copy: oklch(0.85 0.03 70);
-  --contact-fine: oklch(0.74 0.03 65);
-  --field-bg: oklch(0.31 0.055 34);
-  --field-border: oklch(0.46 0.05 40);
-  --field-label: oklch(0.82 0.04 70);
-  --field-card: oklch(0.35 0.05 34);
-  --submit-bg: oklch(0.82 0.13 72);
-  --submit-bg-hover: oklch(0.88 0.12 78);
-  --submit-ink: oklch(0.26 0.06 34);
-  --status-ink: oklch(0.8 0.03 70);
 
   --sidebar-w: clamp(200px, 20vw, 268px);
 }
@@ -510,12 +501,7 @@ h2.section-title {
   color: var(--contact-ink);
   padding: clamp(56px, 7vw, 88px) clamp(28px, 6vw, 88px) clamp(60px, 7vw, 92px) clamp(28px, 5vw, 72px);
 }
-.contact-grid {
-  display: grid;
-  grid-template-columns: minmax(260px, 1fr) minmax(290px, 1.1fr);
-  gap: clamp(32px, 4vw, 72px);
-  align-items: start;
-}
+.contact-intro { max-width: 640px; }
 .contact-eyebrow { color: var(--contact-label); }
 .contact-title {
   font-weight: 300;
@@ -525,76 +511,8 @@ h2.section-title {
   max-width: 20ch;
 }
 .contact-lede { max-width: 44ch; margin: 24px 0 0; color: var(--contact-copy); }
-.contact-rule { width: 26px; height: 1px; background: var(--contact-label); margin: 34px 0 30px; }
-.contact-details {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  font-size: 15.5px;
-  color: oklch(0.86 0.03 70);
-}
-.contact-disclaimer {
-  max-width: 46ch;
-  margin: 34px 0 0;
-  font-size: 13.5px;
-  line-height: 1.6;
-  color: var(--contact-fine);
-}
 
-.contact-form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background: var(--field-card);
-  padding: 34px 34px 36px;
-}
-.field {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 13.5px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--field-label);
-}
-.field span.optional { text-transform: none; letter-spacing: 0; opacity: 0.6; }
-.field input,
-.field select,
-.field textarea {
-  background: var(--field-bg);
-  border: 1px solid var(--field-border);
-  color: var(--contact-ink);
-  padding: 13px 14px;
-  font-size: 16px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-.field textarea { resize: vertical; }
-
-.field-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 20px;
-}
-
-.form-actions {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin-top: 4px;
-}
-.btn-submit {
-  padding: 15px 28px;
-  background: var(--submit-bg);
-  color: var(--submit-ink);
-  border: none;
-  font-size: 15px;
-  font-family: inherit;
-  cursor: pointer;
-}
-.btn-submit:hover { background: var(--submit-bg-hover); }
-.form-status { font-size: 14px; color: var(--status-ink); }
+.calendly-inline-widget { margin-top: 48px; }
 
 /* Footer */
 
@@ -657,8 +575,7 @@ h2.section-title {
 
   .about-grid,
   .fees-grid,
-  .faq-grid,
-  .contact-grid {
+  .faq-grid {
     grid-template-columns: 1fr;
   }
   .about-photo { max-width: 260px; }

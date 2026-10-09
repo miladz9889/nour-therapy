@@ -277,56 +277,12 @@
     </section>
 
     <section id="contact" class="contact-section">
-      <div class="contact-grid">
-        <div>
-          <div class="eyebrow contact-eyebrow">Get in touch</div>
-          <h2 class="section-title contact-title">Start with a free 20-minute call.</h2>
-          <p class="contact-lede">Tell me a little about what's bringing you here. I answer every message myself, usually within two business days.</p>
-          <div class="contact-rule"></div>
-          <div class="contact-details">
-            <div>samar@nourtherapy.me</div>
-            <div>Office address — add when confirmed</div>
-            <div>Online sessions available statewide</div>
-          </div>
-          <p class="contact-disclaimer">This form isn't for emergencies and isn't a secure medical channel. If you're in crisis, call or text 988, or go to your nearest emergency room.</p>
-        </div>
-
-        <form id="contact-form" class="contact-form">
-          <label class="field">
-            Your name
-            <input type="text" name="name" placeholder="First and last" required>
-          </label>
-          <div class="field-row">
-            <label class="field">
-              Email
-              <input type="email" name="email" placeholder="you@email.com" required>
-            </label>
-            <label class="field">
-              <span class="field-label">Phone <span class="optional">optional</span></span>
-              <input type="tel" name="phone" placeholder="(000) 000-0000">
-            </label>
-          </div>
-          <label class="field">
-            What kind of support are you looking for?
-            <select name="kind">
-              <option>Individual therapy</option>
-              <option>Couples counseling</option>
-              <option>Therapy for a teen</option>
-              <option>Family sessions</option>
-              <option>Pregnancy or postpartum support</option>
-              <option>Not sure yet</option>
-            </select>
-          </label>
-          <label class="field">
-            Anything you'd like me to know
-            <textarea name="note" rows="4" placeholder="A few sentences is plenty."></textarea>
-          </label>
-          <div class="form-actions">
-            <button type="submit" class="btn-submit">Request a consult</button>
-            <span id="form-status" class="form-status"></span>
-          </div>
-        </form>
+      <div class="contact-intro">
+        <div class="eyebrow contact-eyebrow">Get in touch</div>
+        <h2 class="section-title contact-title">Start with a free 20-minute call.</h2>
+        <p class="contact-lede">Pick a day and time that works for you — the consult is free, and takes about 20 minutes.</p>
       </div>
+      <div class="calendly-inline-widget" data-url="https://calendly.com/samar-nourtherapy/30min?hide_gdpr_banner=1&primary_color=ff7100" style="min-width:320px;height:700px;"></div>
     </section>
 
     <footer class="site-footer">
@@ -344,6 +300,6 @@
   </main>
 </div>
 
-<script src="js/main.js"></script>
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
 </body>
 </html>
