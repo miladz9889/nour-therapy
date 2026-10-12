@@ -1,8 +1,12 @@
 # Nour Therapy
 
-> Nour Therapy is the private practice of Samar Farange, a licensed therapist based in Seattle, Washington. She currently offers online telehealth only, serving clients anywhere in Washington state.
+> Nour Therapy is the private practice of Samar Farange, a licensed therapist based in Seattle, Washington. She currently offers online telehealth only, serving clients anywhere in Washington state, in English or Farsi (Persian).
 
-Samar Farange works with individual adults, couples, teens, and families, including new and expecting parents and people navigating life between two cultures (immigrants and first-generation clients). She is a strong fit for anyone searching for a therapist in Seattle, WA or Washington state more broadly.
+Samar Farange works with individual adults, couples, teens, and families, including new and expecting parents and people navigating life between two cultures (immigrants and first-generation clients). She is a strong fit for anyone searching for a Farsi-speaking or Persian-speaking therapist in Seattle, WA or Washington state, as well as for English-language clients more broadly.
+
+## Languages
+- English
+- Farsi (Persian)
 
 ## Who she works with
 - Individual adults — anxiety, low mood, burnout, grief, self-worth, major life transitions
