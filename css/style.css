@@ -336,6 +336,13 @@ h2.section-title {
   font-size: 16px;
   color: var(--ink-soft);
 }
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  margin-top: 16px;
+}
+.card-links a { font-size: 13.5px; }
 
 /* Expect */
 
@@ -652,4 +659,59 @@ h2.section-title {
   border-top: 1px solid var(--panel-line);
   max-width: 68ch;
 }
+.mini-faq + .article-cta { border-top: none; padding-top: 0; margin-top: 32px; }
 .article-cta p { margin: 0 0 20px; color: var(--ink-soft); font-size: 17px; }
+
+/* Landing pages */
+
+.page-subhead {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 48px 0 20px;
+  max-width: 68ch;
+}
+
+.page-list {
+  margin: 0 0 22px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  max-width: 68ch;
+}
+.page-list li {
+  position: relative;
+  padding-left: 26px;
+  font-size: 17.5px;
+  line-height: 1.6;
+  color: var(--ink-softer);
+}
+.page-list li::before {
+  content: '—';
+  position: absolute;
+  left: 0;
+  color: var(--rule);
+}
+
+.mini-faq { margin-top: 44px; max-width: 68ch; }
+
+.related-box {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid var(--panel-line);
+  max-width: 68ch;
+}
+.related-box h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 16px;
+}
+.related-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+}
+.related-links a { font-size: 15px; }
