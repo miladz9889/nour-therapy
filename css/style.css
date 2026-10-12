@@ -150,6 +150,7 @@ input:focus, textarea:focus, select:focus {
   line-height: 1.65;
   color: var(--muted);
 }
+.sidebar-note a { color: var(--muted-2); }
 
 .sidebar-toggle { display: none; }
 
@@ -511,6 +512,9 @@ h2.section-title {
   max-width: 20ch;
 }
 .contact-lede { max-width: 44ch; margin: 24px 0 0; color: var(--contact-copy); }
+.contact-phone { max-width: 44ch; margin: 14px 0 0; font-size: 15px; color: var(--contact-copy); }
+.contact-phone a { color: var(--contact-label); text-decoration: underline; text-underline-offset: 3px; }
+.contact-phone a:hover { color: oklch(0.88 0.1 65); }
 
 .calendly-inline-widget { margin-top: 48px; }
 
@@ -529,6 +533,7 @@ h2.section-title {
   font-size: 26px;
 }
 .footer-sub { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.footer-sub a { color: var(--muted-2); }
 .footer-links {
   display: flex;
   gap: 26px;
