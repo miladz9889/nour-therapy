@@ -1,101 +1,94 @@
 seo:
-  title: "Nour Therapy | Samar Farange, Licensed Therapist in Seattle, WA"
-  metaDescription: "Samar Farange, a licensed therapist based in Seattle, WA, offers online therapy in English or Farsi across Washington state for individuals, couples, teens, and families — including new parents and people navigating two cultures. Free 20-minute consult."
-  ogDescription: "Online therapy based in Seattle, WA, in English or Farsi, serving individuals, couples, teens, and families across Washington state — including new parents and people navigating two cultures."
-
+  title: Nour Therapy | Samar Farange, Licensed Therapist in Seattle, WA
+  metaDescription: Samar Farange, a licensed therapist based in Seattle, WA, offers online therapy in English or Farsi across Washington state for individuals, couples, teens, and families — including new parents and people navigating two cultures. Free 20-minute consult.
+  ogDescription: Online therapy based in Seattle, WA, in English or Farsi, serving individuals, couples, teens, and families across Washington state — including new parents and people navigating two cultures.
 hero:
-  eyebrowWord1: "Nour"
-  eyebrowWord2: "light"
-  title: "A warm room, and time to say the true thing."
-  lede: "I'm Samar Farange, a licensed therapist based in Seattle, WA. I offer online counseling in English or Farsi across Washington state for adults, couples, teens, and families — including new parents and folks living between cultures. We go at your pace, and I'll be a real person with you in the room."
-  ctaText: "Book a free 20-minute consult"
-  secondaryLinkText: "What a first session looks like"
-  heroImage: "https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=1600&h=660&q=70"
-  heroImageAlt: "Sunrise over the horizon, evoking the warmth of Nour Therapy's Seattle practice"
-
-meaning: "*Nour* means light in Farsi. Not a spotlight — the kind that comes in slowly, late in the day, and makes a room legible again."
-
+  eyebrowWord1: Nour
+  eyebrowWord2: light
+  title: A warm room, and time to say the true thing. Test
+  lede: I'm Samar Farange, a licensed therapist based in Seattle, WA. I offer online counseling in English or Farsi across Washington state for adults, couples, teens, and families — including new parents and folks living between cultures. We go at your pace, and I'll be a real person with you in the room.
+  ctaText: Book a free 20-minute consult
+  secondaryLinkText: What a first session looks like
+  heroImage: https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=1600&h=660&q=70
+  heroImageAlt: Sunrise over the horizon, evoking the warmth of Nour Therapy's Seattle practice
+meaning: '*Nour* means light in Farsi. Not a spotlight — the kind that comes in slowly, late in the day, and makes a room legible again.'
 about:
-  kicker: "Licensed therapist · founder of Nour Therapy"
+  kicker: Licensed therapist · founder of Nour Therapy
   paragraphs:
-    - "I became a therapist because I saw what happens when someone is finally listened to properly. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice."
-    - "I work with individuals, couples, teens, and families. Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under everything, grief that came too early, or family expectations that no longer fit the life they are building."
-    - "Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations about who you are allowed to be, you are welcome here. You will not have to explain it from scratch. I offer sessions in English or Farsi, whichever feels more like home for what you need to say."
-    - "Therapy works best when it feels like a real relationship, so I will tell you honestly what I think, and I will always leave room for you to disagree."
+    - I became a therapist because I saw what happens when someone is finally listened to properly. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.
+    - 'I work with individuals, couples, teens, and families. Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under everything, grief that came too early, or family expectations that no longer fit the life they are building.'
+    - Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations about who you are allowed to be, you are welcome here. You will not have to explain it from scratch. I offer sessions in English or Farsi, whichever feels more like home for what you need to say.
+    - Therapy works best when it feels like a real relationship, so I will tell you honestly what I think, and I will always leave room for you to disagree.
   tags:
-    - "Seattle, WA"
-    - "English & Farsi"
-    - "Individuals & couples"
-    - "Teens & families"
-    - "Online sessions only"
-
+    - Seattle, WA
+    - English & Farsi
+    - Individuals & couples
+    - Teens & families
+    - Online sessions only
 services:
-  title: "Five kinds of rooms"
+  title: Five kinds of rooms
   items:
-    - title: "Individual adults"
-      color: "oklch(0.55 0.15 30)"
-      description: "Weekly 50-minute sessions for anxiety, low mood, burnout, grief, self-worth, and the big turns — a move, a diagnosis, a divorce. Long-term work or a focused stretch; both are legitimate."
+    - title: Individual adults
+      color: oklch(0.55 0.15 30)
+      description: Weekly 50-minute sessions for anxiety, low mood, burnout, grief, self-worth, and the big turns — a move, a diagnosis, a divorce. Long-term work or a focused stretch; both are legitimate.
       links:
-        - text: "Anxiety therapy"
-          url: "anxiety-therapy-washington/"
-        - text: "Depression therapy"
-          url: "depression-therapy-washington/"
-    - title: "Couples"
-      color: "oklch(0.62 0.15 42)"
-      description: "For partners stuck in the same argument, rebuilding after a betrayal or a hard year, or trying to decide honestly what comes next. 75 minutes, both of you talking to each other more than to me."
+        - text: Anxiety therapy
+          url: anxiety-therapy-washington/
+        - text: Depression therapy
+          url: depression-therapy-washington/
+    - title: Couples
+      color: oklch(0.62 0.15 42)
+      description: For partners stuck in the same argument, rebuilding after a betrayal or a hard year, or trying to decide honestly what comes next. 75 minutes, both of you talking to each other more than to me.
       links: []
-    - title: "Teens"
-      color: "oklch(0.7 0.14 55)"
-      description: "A space of their own, with clear boundaries about what stays private. I keep parents informed about the shape of the work without reporting on the contents of it."
+    - title: Teens
+      color: oklch(0.7 0.14 55)
+      description: A space of their own, with clear boundaries about what stays private. I keep parents informed about the shape of the work without reporting on the contents of it.
       links: []
-    - title: "Families"
-      color: "oklch(0.78 0.13 72)"
-      description: "When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says."
+    - title: Families
+      color: oklch(0.78 0.13 72)
+      description: When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says.
       links: []
-    - title: "New & expecting parents"
-      color: "oklch(0.84 0.11 88)"
-      description: "Pregnancy, birth, postpartum, loss, and the strange grief of a life reorganizing itself. Bring the baby if that's what makes it possible."
+    - title: New & expecting parents
+      color: oklch(0.84 0.11 88)
+      description: Pregnancy, birth, postpartum, loss, and the strange grief of a life reorganizing itself. Bring the baby if that's what makes it possible.
       links: []
-    - title: "Immigrants & first-gen"
-      color: "oklch(0.6 0.13 22)"
-      description: "Displacement, homesickness, obligation, and the quiet cost of being the one who translates. Belonging in two places, or feeling like you belong in neither."
+    - title: Immigrants & first-gen
+      color: oklch(0.6 0.13 22)
+      description: Displacement, homesickness, obligation, and the quiet cost of being the one who translates. Belonging in two places, or feeling like you belong in neither.
       links:
-        - text: "Therapy for immigrants"
-          url: "therapy-for-immigrants/"
-        - text: "Cultural identity & family"
-          url: "cultural-identity-therapy/"
-
+        - text: Therapy for immigrants
+          url: therapy-for-immigrants/
+        - text: Cultural identity & family
+          url: cultural-identity-therapy/
 expect:
-  lede: "Nothing about this should be a surprise. You'll know what happens, what it costs, and what I'll ask of you before you commit to anything."
+  lede: Nothing about this should be a surprise. You'll know what happens, what it costs, and what I'll ask of you before you commit to anything.
   steps:
-    - num: "01"
-      title: "A free 20-minute call"
-      description: "You tell me what's going on, I tell you how I'd think about it, and we both decide whether I'm the right fit. If I'm not, I'll say so and point you somewhere better."
-    - num: "02"
-      title: "The assessment (1–2 sessions)"
-      description: "History, context, and what you want to be different. By the end, we'll have named the work in plain language, together."
-    - num: "03"
-      title: "Then, ongoing"
-      description: "Usually weekly, same day and time, so it becomes something you don't have to decide about. Every couple of months we check whether it's working."
-
+    - num: '01'
+      title: A free 20-minute call
+      description: You tell me what's going on, I tell you how I'd think about it, and we both decide whether I'm the right fit. If I'm not, I'll say so and point you somewhere better.
+    - num: '02'
+      title: The assessment (1–2 sessions)
+      description: History, context, and what you want to be different. By the end, we'll have named the work in plain language, together.
+    - num: '03'
+      title: Then, ongoing
+      description: Usually weekly, same day and time, so it becomes something you don't have to decide about. Every couple of months we check whether it's working.
 fees:
   rows:
-    - label: "Individual session · 50 minutes"
-      value: "$180"
-    - label: "Couples or family session · 75 minutes"
-      value: "$230"
-    - label: "Initial consultation · 20 minutes"
-      value: "Free"
-    - label: "Sliding-scale spots"
-      value: "A few, ask me"
-  note: "I'm out of network, which means you pay me directly and I give you a superbill each month to submit to your insurer. Many PPO plans reimburse a meaningful portion of an out-of-network session. If cost is the thing standing in the way, say so on our call — I'd rather solve it than lose you to it."
+    - label: Individual session · 50 minutes
+      value: $180
+    - label: Couples or family session · 75 minutes
+      value: $230
+    - label: Initial consultation · 20 minutes
+      value: Free
+    - label: Sliding-scale spots
+      value: A few, ask me
+  note: I'm out of network, which means you pay me directly and I give you a superbill each month to submit to your insurer. Many PPO plans reimburse a meaningful portion of an out-of-network session. If cost is the thing standing in the way, say so on our call — I'd rather solve it than lose you to it.
   goodToKnow:
     - "Cancellations: 24 hours' notice, no charge."
-    - "Payment by card, HSA, or FSA."
-    - "Online sessions on a private, encrypted platform."
-    - "Telehealth available via Zoom or phone."
-    - "Sessions available in English or Farsi."
-
+    - Payment by card, HSA, or FSA.
+    - Online sessions on a private, encrypted platform.
+    - Telehealth available via Zoom or phone.
+    - Sessions available in English or Farsi.
 contact:
-  lede: "Pick a day and time that works for you — the consult is free, and takes about 20 minutes."
-  calendlyUrl: "https://calendly.com/samar-nourtherapy/30min?hide_gdpr_banner=1&primary_color=ff7100"
+  lede: Pick a day and time that works for you — the consult is free, and takes about 20 minutes.
+  calendlyUrl: https://calendly.com/samar-nourtherapy/30min?hide_gdpr_banner=1&primary_color=ff7100
