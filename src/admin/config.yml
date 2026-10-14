@@ -2,7 +2,7 @@ backend:
   name: github
   repo: miladz9889/nour-therapy
   branch: main
-  base_url: https://nourtherapy.me
+  base_url: https://nour-oauth.milad-3e6.workers.dev
   auth_endpoint: oauth/auth
 
 site_url: https://nourtherapy.me
