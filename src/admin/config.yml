@@ -7,7 +7,6 @@ backend:
 
 site_url: https://nourtherapy.me
 display_url: https://nourtherapy.me
-logo_url: ""
 
 media_folder: "src/images/uploads"
 public_folder: "/images/uploads"
@@ -90,7 +89,7 @@ collections:
               - { label: "Hero image URL", name: "heroImage", widget: "string" }
               - { label: "Hero image alt text", name: "heroImageAlt", widget: "string" }
 
-          - { label: "\"Nour means light\" line (markdown — *word* for italics)", name: "meaning", widget: "text" }
+          - { label: "\"Nour means light\" line (*word* for italics)", name: "meaning", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
 
           - label: "About Samar"
             name: "about"
@@ -195,7 +194,7 @@ collections:
             widget: "object"
             fields:
               - { label: "Heading (leave blank for the opening section)", name: "heading", widget: "string", required: false }
-              - { label: "Body text (leave a blank line between paragraphs; [link text](url) for links)", name: "body", widget: "text" }
+              - { label: "Body text (leave a blank line between paragraphs; use the link button for links)", name: "body", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
           - label: "Bulleted list"
             name: "list"
             widget: "object"
