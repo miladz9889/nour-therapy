@@ -1,0 +1,173 @@
+---
+navPrefix: ""
+assetPrefix: ""
+canonicalUrl: "https://nourtherapy.me/"
+ogType: website
+eleventyComputed:
+  pageTitle: "{{ homepage.seo.title }}"
+  metaDescription: "{{ homepage.seo.metaDescription }}"
+  ogDescription: "{{ homepage.seo.ogDescription }}"
+---
+{% extends "layouts/base.njk" %}
+
+{% block structuredData %}
+{% homepageSchema homepageFaq.items %}
+{% endblock %}
+
+{% block content %}
+
+    <section>
+      <div class="eyebrow-row eyebrow">
+        <span>{{ homepage.hero.eyebrowWord1 }}</span><span class="dot">·</span><span>{{ homepage.hero.eyebrowWord2 }}</span>
+      </div>
+      <h1 class="hero-title">{{ homepage.hero.title }}</h1>
+      <p class="hero-lede">{{ homepage.hero.lede }}</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-lg">{{ homepage.hero.ctaText }}</a>
+        <a href="#expect" class="link-underline">{{ homepage.hero.secondaryLinkText }}</a>
+      </div>
+
+      <div class="hero-media">
+        <div class="hero-image">
+          <img src="{{ homepage.hero.heroImage }}" alt="{{ homepage.hero.heroImageAlt }}" width="1600" height="660" fetchpriority="high">
+          <div class="image-tint"></div>
+        </div>
+        <div class="hero-bar"></div>
+      </div>
+    </section>
+
+    <section>
+      <p class="meaning">{{ homepage.meaning | markdownInline | safe }}</p>
+    </section>
+
+    <section id="about">
+      <div class="about-grid">
+        <div class="about-photo" role="img" aria-label="Portrait placeholder for Samar Farange">
+          <span class="about-photo-monogram">SF</span>
+        </div>
+        <div>
+          <div class="eyebrow">About</div>
+          <h2 class="section-title">{{ site.therapistName }}</h2>
+          <div class="about-kicker">{{ homepage.about.kicker }}</div>
+          <div class="hr-accent"></div>
+          <div class="about-copy">
+            {% for p in homepage.about.paragraphs %}<p>{{ p }}</p>
+            {% endfor %}
+          </div>
+          <div class="tags">
+            {% for tag in homepage.about.tags %}<span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="eyebrow">Who I work with</div>
+      <h2 class="section-title services-title">{{ homepage.services.title }}</h2>
+      <div class="services-grid">
+        {% for item in homepage.services.items %}<div class="service-card">
+          <div class="service-dash" style="background: {{ item.color }};"></div>
+          <h3>{{ item.title }}</h3>
+          <p>{{ item.description }}</p>
+          {% if item.links and item.links.length %}<div class="card-links">
+            {% for link in item.links %}<a href="{{ link.url }}" class="link-underline">{{ link.text }}</a>
+            {% endfor %}</div>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="expect" class="expect-section">
+      <div class="eyebrow expect-eyebrow">What to expect</div>
+      <h2 class="section-title expect-title">Starting is the hardest part. So here is all of it.</h2>
+      <p class="expect-lede">{{ homepage.expect.lede }}</p>
+      <div class="expect-grid">
+        {% for step in homepage.expect.steps %}<div class="expect-item">
+          <div class="expect-num">{{ step.num }}</div>
+          <h3>{{ step.title }}</h3>
+          <p>{{ step.description }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="fees">
+      <div class="fees-grid">
+        <div>
+          <div class="eyebrow">Fees &amp; insurance</div>
+          <h2 class="section-title fee-title">Plainly stated</h2>
+          <div class="fee-rows">
+            {% for row in homepage.fees.rows %}<div class="fee-row"><span>{{ row.label }}</span><span class="value">{{ row.value }}</span></div>
+            {% endfor %}
+          </div>
+          <p class="fee-note">{{ homepage.fees.note }}</p>
+        </div>
+        <div class="fee-aside">
+          <h3>Good to know</h3>
+          <div class="fee-aside-list">
+            {% for item in homepage.fees.goodToKnow %}<div>{{ item }}</div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="faq-grid">
+        <div>
+          <div class="eyebrow">Questions</div>
+          <h2 class="section-title faq-title">Things people ask before they call</h2>
+        </div>
+        <div>
+          {% for item in homepageFaq.items %}<details class="faq-item">
+            <summary>
+              <span>{{ item.question }}</span>
+              <span class="plus">+</span>
+            </summary>
+            <p>{{ item.answer }}</p>
+          </details>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+    <section id="writing">
+      <div class="writing-head">
+        <div>
+          <div class="eyebrow">Writing &amp; resources</div>
+          <h2 class="section-title writing-title">Notes between sessions</h2>
+        </div>
+        <a href="#writing" class="link-underline">All writing</a>
+      </div>
+      <div class="writing-grid">
+        {% for post in collections.blog %}<a href="writing/{{ post.data.slug }}.html" class="writing-card">
+          <div class="writing-image">
+            <img src="{{ post.data.teaserImage }}" alt="{{ post.data.teaserImageAlt }}" width="800" height="400" loading="lazy">
+            <div class="image-tint"></div>
+          </div>
+          <div class="writing-cat">{{ post.data.category }}</div>
+          <h3>{{ post.data.title }}</h3>
+          <p>{{ post.data.teaser }}</p>
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-intro">
+        <div class="eyebrow contact-eyebrow">Get in touch</div>
+        <h2 class="section-title contact-title">Start with a free 20-minute call.</h2>
+        <p class="contact-lede">{{ homepage.contact.lede }}</p>
+      </div>
+      <div class="calendly-inline-widget" data-url="{{ homepage.contact.calendlyUrl }}" style="min-width:320px;height:700px;"></div>
+    </section>
+
+{% include "partials/footer.njk" %}
+
+{% endblock %}
+
+{% block bodyScripts %}
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+{% endblock %}

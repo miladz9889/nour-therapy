@@ -1,0 +1,39 @@
+{% extends "layouts/base.njk" %}
+
+{% block structuredData %}
+{% blogSchema canonicalUrl, seoTitle, metaDescription, date | dateISO, image, category %}
+{% endblock %}
+
+{% block content %}
+    <section>
+      <a href="../index.html#writing" class="article-back link-underline">&larr; All writing</a>
+      <div class="article-eyebrow">{{ category }}</div>
+      <h1 class="article-title">{{ title }}</h1>
+      <div class="article-byline">{{ site.therapistName }} · Licensed Therapist, {{ site.city }}, {{ site.state }} · {{ date | dateDisplay }}</div>
+
+      <div class="article-cover">
+        <img src="{{ image }}" alt="{{ imageAlt }}" width="1200" height="630" fetchpriority="high">
+      </div>
+
+      <div class="article-body">
+        {{ content | safe }}
+      </div>
+
+      <p class="article-disclaimer">{{ disclaimer }}</p>
+
+      <div class="article-cta">
+        <p>{{ ctaText }}</p>
+        <a href="../index.html#contact" class="btn btn-lg">Book a free 20-minute consult</a>
+      </div>
+
+      <div class="related-box">
+        <h3>Related</h3>
+        <div class="related-links">
+          {% for link in related %}<a href="{{ link.url }}">{{ link.text }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+
+{% include "partials/footer.njk" %}
+{% endblock %}

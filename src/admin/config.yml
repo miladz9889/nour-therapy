@@ -1,0 +1,252 @@
+backend:
+  name: github
+  repo: miladz9889/nour-therapy
+  branch: main
+  base_url: https://nourtherapy.me
+  auth_endpoint: oauth/auth
+
+site_url: https://nourtherapy.me
+display_url: https://nourtherapy.me
+logo_url: ""
+
+media_folder: "src/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "site"
+    label: "Site Settings"
+    description: "Business name, phone number, and the navigation menus shown on every page."
+    files:
+      - file: "src/_data/site.yml"
+        label: "Site Settings"
+        name: "site"
+        fields:
+          - { label: "Business name", name: "businessName", widget: "string" }
+          - { label: "Therapist name", name: "therapistName", widget: "string" }
+          - { label: "Therapist title", name: "therapistTitle", widget: "string" }
+          - { label: "City", name: "city", widget: "string" }
+          - { label: "State (abbreviation)", name: "state", widget: "string" }
+          - { label: "Phone (how it's displayed, e.g. (425) 315-2487)", name: "phoneDisplay", widget: "string" }
+          - { label: "Phone (for click-to-call links, e.g. +14253152487)", name: "phoneHref", widget: "string" }
+          - { label: "Site URL", name: "siteUrl", widget: "string" }
+          - label: "Main navigation (left sidebar)"
+            name: "nav"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link (e.g. #about or #contact)", name: "href", widget: "string" }
+          - label: "Footer links"
+            name: "footerLinks"
+            widget: "list"
+            summary: "{{fields.label}}"
+            fields:
+              - { label: "Label", name: "label", widget: "string" }
+              - { label: "Link", name: "href", widget: "string" }
+          - { label: "Copyright line", name: "copyrightLine", widget: "string" }
+
+  - name: "faq"
+    label: "FAQ (Homepage)"
+    description: "The Questions section on the homepage. These same questions also power search-engine rich results, so keep answers accurate and complete."
+    files:
+      - file: "src/_data/homepageFaq.yml"
+        label: "Frequently Asked Questions"
+        name: "faq"
+        fields:
+          - label: "Questions"
+            name: "items"
+            widget: "list"
+            summary: "{{fields.question}}"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+
+  - name: "homepage"
+    label: "Homepage"
+    description: "Every section of the main homepage, top to bottom."
+    files:
+      - file: "src/_data/homepage.yml"
+        label: "Homepage Content"
+        name: "homepage"
+        fields:
+          - label: "SEO (search engines & link previews)"
+            name: "seo"
+            widget: "object"
+            fields:
+              - { label: "Page title", name: "title", widget: "string" }
+              - { label: "Meta description", name: "metaDescription", widget: "text" }
+              - { label: "Social share description", name: "ogDescription", widget: "text" }
+
+          - label: "Hero (top of page)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow word 1", name: "eyebrowWord1", widget: "string" }
+              - { label: "Eyebrow word 2", name: "eyebrowWord2", widget: "string" }
+              - { label: "Headline", name: "title", widget: "string" }
+              - { label: "Lede paragraph", name: "lede", widget: "text" }
+              - { label: "Button text", name: "ctaText", widget: "string" }
+              - { label: "Secondary link text", name: "secondaryLinkText", widget: "string" }
+              - { label: "Hero image URL", name: "heroImage", widget: "string" }
+              - { label: "Hero image alt text", name: "heroImageAlt", widget: "string" }
+
+          - { label: "\"Nour means light\" line (markdown — *word* for italics)", name: "meaning", widget: "text" }
+
+          - label: "About Samar"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Kicker line", name: "kicker", widget: "string" }
+              - label: "Paragraphs"
+                name: "paragraphs"
+                widget: "list"
+                field: { label: "Paragraph", name: "paragraph", widget: "text" }
+              - label: "Tags"
+                name: "tags"
+                widget: "list"
+                field: { label: "Tag", name: "tag", widget: "string" }
+
+          - label: "Services (\"Who I work with\")"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Section title", name: "title", widget: "string" }
+              - label: "Service cards"
+                name: "items"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Accent color (oklch, leave as-is)", name: "color", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+                  - label: "Related page links (optional)"
+                    name: "links"
+                    widget: "list"
+                    required: false
+                    fields:
+                      - { label: "Link text", name: "text", widget: "string" }
+                      - { label: "URL", name: "url", widget: "string" }
+
+          - label: "What to expect"
+            name: "expect"
+            widget: "object"
+            fields:
+              - { label: "Intro line", name: "lede", widget: "text" }
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                summary: "{{fields.title}}"
+                fields:
+                  - { label: "Number (e.g. 01)", name: "num", widget: "string" }
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Description", name: "description", widget: "text" }
+
+          - label: "Fees & insurance"
+            name: "fees"
+            widget: "object"
+            fields:
+              - label: "Price rows"
+                name: "rows"
+                widget: "list"
+                summary: "{{fields.label}} — {{fields.value}}"
+                fields:
+                  - { label: "Label", name: "label", widget: "string" }
+                  - { label: "Value (e.g. $180 or Free)", name: "value", widget: "string" }
+              - { label: "Note paragraph", name: "note", widget: "text" }
+              - label: "\"Good to know\" list"
+                name: "goodToKnow"
+                widget: "list"
+                field: { label: "Item", name: "item", widget: "string" }
+
+          - label: "Contact / booking"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Lede text above the booking calendar", name: "lede", widget: "text" }
+              - { label: "Calendly embed URL", name: "calendlyUrl", widget: "string" }
+
+  - name: "topics"
+    label: "Topic Pages"
+    description: "Standalone pages like /anxiety-therapy-washington/ — each targets a specific search topic. Don't repeat the same paragraph across pages with different keywords; each should say something genuinely different."
+    folder: "src/content/topics"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Page title (shown as the big heading)", name: "title", widget: "string" }
+      - { label: "URL slug (e.g. anxiety-therapy-washington)", name: "slug", widget: "string", hint: "Becomes the page's web address: nourtherapy.me/your-slug/. Avoid changing this on an existing page — it will break the old link." }
+      - { label: "Eyebrow label (small text above the title)", name: "eyebrow", widget: "string" }
+      - { label: "SEO title override (optional)", name: "seoTitle", widget: "string", required: false, hint: "Only set this if the browser-tab title should differ from the page title above." }
+      - { label: "Meta description (for Google)", name: "metaDescription", widget: "text" }
+      - { label: "Social share description", name: "ogDescription", widget: "text" }
+      - label: "Page type"
+        name: "schemaType"
+        widget: "select"
+        options: ["WebPage", "MedicalWebPage"]
+        hint: "Use MedicalWebPage only for pages about a specific clinical condition (like Anxiety or Depression)."
+      - { label: "Medical condition name (only if Page type is MedicalWebPage)", name: "medicalCondition", widget: "string", required: false }
+      - { label: "Order (controls position among topic pages; lower = earlier)", name: "order", widget: "number", default: 9, required: false }
+      - label: "Page sections"
+        name: "sections"
+        widget: "list"
+        summary: "{{fields.heading}}"
+        types:
+          - label: "Paragraph(s)"
+            name: "text"
+            widget: "object"
+            fields:
+              - { label: "Heading (leave blank for the opening section)", name: "heading", widget: "string", required: false }
+              - { label: "Body text (leave a blank line between paragraphs; [link text](url) for links)", name: "body", widget: "text" }
+          - label: "Bulleted list"
+            name: "list"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Items"
+                name: "items"
+                widget: "list"
+                field: { label: "Item (can include [link text](url))", name: "item", widget: "string" }
+      - label: "Mini FAQ"
+        name: "faq"
+        widget: "list"
+        summary: "{{fields.question}}"
+        fields:
+          - { label: "Question", name: "question", widget: "string" }
+          - { label: "Answer", name: "answer", widget: "text" }
+      - { label: "Call-to-action text (above the booking button)", name: "ctaText", widget: "string" }
+      - label: "Related links"
+        name: "related"
+        widget: "list"
+        summary: "{{fields.text}}"
+        fields:
+          - { label: "Link text", name: "text", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }
+
+  - name: "blog"
+    label: "Writing (Blog Articles)"
+    description: "Articles that appear in the homepage's Writing section and at /writing/your-article.html."
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title (as shown on the article page)", name: "title", widget: "string" }
+      - { label: "SEO title (for the browser tab and search results)", name: "seoTitle", widget: "string" }
+      - { label: "URL slug", name: "slug", widget: "string", hint: "Becomes nourtherapy.me/writing/your-slug.html. Avoid changing this on a published article." }
+      - { label: "Category (shown as a small label, e.g. Anxiety)", name: "category", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime", format: "yyyy-MM-dd", date_format: "yyyy-MM-dd", time_format: false }
+      - { label: "Order (tiebreaker when articles share a date; lower = shown first)", name: "order", widget: "number", default: 9, required: false }
+      - { label: "Meta description (for Google)", name: "metaDescription", widget: "text" }
+      - { label: "Homepage teaser sentence", name: "teaser", widget: "text" }
+      - { label: "Cover image URL (top of article)", name: "image", widget: "string" }
+      - { label: "Cover image alt text", name: "imageAlt", widget: "string" }
+      - { label: "Homepage teaser image URL", name: "teaserImage", widget: "string" }
+      - { label: "Homepage teaser image alt text", name: "teaserImageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Disclaimer (shown below the article)", name: "disclaimer", widget: "text" }
+      - { label: "Call-to-action text", name: "ctaText", widget: "string" }
+      - label: "Related links"
+        name: "related"
+        widget: "list"
+        summary: "{{fields.text}}"
+        fields:
+          - { label: "Link text", name: "text", widget: "string" }
+          - { label: "URL", name: "url", widget: "string" }

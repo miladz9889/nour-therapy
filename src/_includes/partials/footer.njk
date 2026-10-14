@@ -1,0 +1,11 @@
+    <footer class="site-footer">
+      <div>
+        <div class="footer-brand">{{ site.businessName }}</div>
+        <div class="footer-sub">{{ site.therapistName }} · {{ site.therapistTitle }}</div>
+        <div class="footer-sub">{{ site.city }}, {{ site.state }} · <a href="tel:{{ site.phoneHref }}">{{ site.phoneDisplay }}</a></div>
+      </div>
+      <div class="footer-links">
+        {% for link in site.footerLinks %}<a href="{{ navPrefix }}{{ link.href }}">{{ link.label }}</a>
+        {% endfor %}<span>{{ site.copyrightLine }}</span>
+      </div>
+    </footer>

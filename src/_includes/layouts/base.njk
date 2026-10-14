@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ pageTitle }}</title>
+<meta name="description" content="{{ metaDescription }}">
+<meta name="geo.region" content="US-WA">
+<meta name="geo.placename" content="Seattle">
+<link rel="canonical" href="{{ canonicalUrl }}">
+<meta property="og:type" content="{{ ogType or 'website' }}">
+<meta property="og:site_name" content="{{ site.businessName }}">
+<meta property="og:title" content="{{ ogTitle or pageTitle }}">
+<meta property="og:description" content="{{ ogDescription or metaDescription }}">
+<meta property="og:url" content="{{ canonicalUrl }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ ogTitle or pageTitle }}">
+<meta name="twitter:description" content="{{ ogDescription or metaDescription }}">
+{% block structuredData %}{% endblock %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Karla:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ assetPrefix }}css/style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <div>
+      <a href="{{ navPrefix }}#top" class="wordmark">
+        <div class="wordmark-main">Nour</div>
+        <div class="wordmark-sub">Therapy</div>
+      </a>
+      <div class="hr-accent"></div>
+      <nav class="sidebar-nav">
+        {% for item in site.nav %}<a href="{{ navPrefix }}{{ item.href }}">{{ item.label }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+    <div class="sidebar-bottom">
+      <a href="{{ navPrefix }}#contact" class="btn">Book a free consult</a>
+      <div class="sidebar-note">Online sessions only<br>Serving all of Washington state<br><a href="tel:{{ site.phoneHref }}">{{ site.phoneDisplay }}</a></div>
+    </div>
+  </aside>
+
+  <main id="top">
+{% block content %}{% endblock %}
+  </main>
+</div>
+
+{% block bodyScripts %}{% endblock %}
+</body>
+</html>
