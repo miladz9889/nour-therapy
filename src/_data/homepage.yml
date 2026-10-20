@@ -26,7 +26,7 @@ about:
     - Teens & families
     - Online sessions only
 services:
-  title: Five kinds of rooms
+  title: Four kinds of rooms
   items:
     - title: Individual adults
       color: oklch(0.55 0.15 30)
@@ -40,13 +40,9 @@ services:
       color: oklch(0.62 0.15 42)
       description: Developed mainly for an individual navigating hurdles within their relationship. However, there is space that allows for your partner to be included for a select few sessions if desired.
       links: []
-    - title: Families
+    - title: Family Conflict
       color: oklch(0.78 0.13 72)
-      description: When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says.
-      links: []
-    - title: New & expecting parents
-      color: oklch(0.84 0.11 88)
-      description: Pregnancy, birth, postpartum, loss, and the strange grief of a life reorganizing itself. Bring the baby if that's what makes it possible.
+      description: When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says. This is where we have an opportunity to pull in willing family members as needed.
       links: []
     - title: Immigrants & first-gen
       color: oklch(0.6 0.13 22)
