@@ -68,16 +68,18 @@ fees:
   rows:
     - label: Individual session · 50 minutes
       value: $180
-    - label: Couples or family session · 75 minutes
+    - label: Extended individual sessions · Up to 40 min
+      value: $20/per additional 10 minutes
+    - label: Sessions with multiple individuals · 80 minutes
       value: $230
     - label: Initial consultation · 20 minutes
       value: Free
-    - label: Sliding-scale spots
-      value: A few, ask me
-  note: I'm out of network, which means you pay me directly and I give you a superbill each month to submit to your insurer. Many PPO plans reimburse a meaningful portion of an out-of-network session. If cost is the thing standing in the way, say so on our call — I'd rather solve it than lose you to it.
+    - label: Discounted rate
+      value: Ask me
+  note: I am currently an out-of-network provider and do not bill insurance directly. I can provide superbills for possible out-of-network reimbursement. Please reach out with any questions, I am happy to work with you to keep therapy affordable. If cost is the thing standing in the way, say so on our call — I'd rather solve it than lose you to it.
   goodToKnow:
     - "Cancellations: 24 hours' notice, no charge."
-    - Payment by card, HSA, or FSA.
+    - Credit card, Health Savings Account, Apple Cash, Venmo, Zelle, ACH Bank transfer
     - Online sessions on a private, encrypted platform.
     - Telehealth available via Zoom or phone.
     - Sessions available in English or Farsi.
