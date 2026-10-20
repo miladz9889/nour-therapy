@@ -6,7 +6,7 @@ hero:
   eyebrowWord1: Nour
   eyebrowWord2: light
   title: A warm room, and time to say the true thing.
-  lede: I'm Samar Farange, a licensed mental health therapist based in Washington. I offer online counseling in English for adults across Washington state including individuals experiencing anxiety,  those living between cultures, and many more  We go at your pace, and I'll be a real person with you in the room.
+  lede: I'm Samar Farange, a licensed mental health therapist based in Washington. I offer online counseling in English for adults across Washington state who are looking for support in navigating mental health challenges. We go at your pace, and I'll be a real person with you in the room.
   ctaText: Book a free 20-minute consult
   secondaryLinkText: What a first session looks like
   heroImage: https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=1600&h=660&q=70
@@ -16,14 +16,14 @@ about:
   kicker: Licensed therapist · founder of Nour Therapy
   paragraphs:
     - I became a therapist because I saw what happens when someone is finally given the space to share and be heard. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.
-    - 'Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under each and every move, the stress of how to communicate effectively, boundaries that need to be set, or family expectations that no longer fit the life they are building.'
+    - Many of my clients arrive carrying something they have never been able to set down; anxiety that hums under each and every move, the stress of how to communicate effectively, boundaries that need to be set, or family expectations that no longer fit the life you are building.
     - Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations and never being 'enough,' you are welcome here. Taking a multicultural perspective allows us to integrate your personal background in how we develop your treatment plan and goals to fit your needs.
     - Therapy works best when it feels like a real relationship, so I will tell you honestly what I think, and I will always leave room for you to disagree.
   tags:
-    - Seattle, WA
-    - English & Farsi
-    - Individuals & couples
-    - Teens & families
+    - Washington State
+    - English
+    - Individuals
+    - Relationships & Family
     - Online sessions only
 services:
   title: Four kinds of rooms
@@ -57,13 +57,13 @@ expect:
   steps:
     - num: '01'
       title: A free 20-minute call
-      description: You tell me what's going on, I tell you how I'd think about it, and we both decide whether I'm the right fit. If I'm not, I'll say so and point you somewhere better.
+      description: You tell me what's going on, I tell you how I'd think about it, and we both decide whether we're the right fit. If I'm not, I'll say so and refer you elsewhere.
     - num: '02'
       title: The assessment (1–2 sessions)
-      description: History, context, and what you want to be different. By the end, we'll have named the work in plain language, together.
+      description: History, context, and what it is you want to change. By the end, we'll have named the work in plain language, together.
     - num: '03'
       title: Then, ongoing
-      description: Usually weekly, same day and time, so it becomes something you don't have to decide about. Every couple of months we check whether it's working.
+      description: Usually weekly, same day and time, so it becomes something you don't have to decide about. Every couple of months we check in on what's working and what isn't.
 fees:
   rows:
     - label: Individual session · 50 minutes
