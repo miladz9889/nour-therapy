@@ -1,7 +1,7 @@
 seo:
   title: Nour Therapy | Samar Farange, Licensed Therapist in Seattle, WA
-  metaDescription: Samar Farange, a licensed therapist based in Seattle, WA, offers online therapy in English or Farsi across Washington state for individuals, couples, teens, and families — including new parents and people navigating two cultures. Free 20-minute consult.
-  ogDescription: Online therapy based in Seattle, WA, in English or Farsi, serving individuals, couples, teens, and families across Washington state — including new parents and people navigating two cultures.
+  metaDescription: Samar Farange, a licensed therapist based in Washington, offers online therapy in English across Washington state for individuals, couples, teens, and families — including new parents and people navigating two cultures. Free 20-minute consult.
+  ogDescription: Online therapy based in Washington, in English serving individuals, couples, and families across Washington state — including new parents and people navigating two cultures.
 hero:
   eyebrowWord1: Nour
   eyebrowWord2: light
@@ -81,8 +81,8 @@ fees:
     - "Cancellations: 24 hours' notice, no charge."
     - Credit card, Health Savings Account, Apple Cash, Venmo, Zelle, ACH Bank transfer
     - Online sessions on a private, encrypted platform.
-    - Telehealth available via Zoom or phone.
-    - Sessions available in English or Farsi.
+    - Telehealth available via email link or phone.
+    - Sessions available in English.
 contact:
   lede: Pick a day and time that works for you — the consult is free, and takes about 20 minutes.
   calendlyUrl: https://calendly.com/samar-nourtherapy/30min?hide_gdpr_banner=1&primary_color=ff7100
