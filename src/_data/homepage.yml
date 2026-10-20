@@ -6,7 +6,7 @@ hero:
   eyebrowWord1: Nour
   eyebrowWord2: light
   title: A warm room, and time to say the true thing.
-  lede: I'm Samar Farange, a licensed therapist based in Seattle, WA. I offer online counseling in English or Farsi across Washington state for adults, couples, teens, and families — including new parents and folks living between cultures. We go at your pace, and I'll be a real person with you in the room.
+  lede: I'm Samar Farange, a licensed mental health therapist based in Washington. I offer online counseling in English for adults across Washington state including individuals experiencing anxiety,  those living between cultures, and many more  We go at your pace, and I'll be a real person with you in the room.
   ctaText: Book a free 20-minute consult
   secondaryLinkText: What a first session looks like
   heroImage: https://images.unsplash.com/photo-1494548162494-384bba4ab999?auto=format&fit=crop&w=1600&h=660&q=70
@@ -15,9 +15,9 @@ meaning: '*Nour* means light in Farsi. Not a spotlight — the kind that comes i
 about:
   kicker: Licensed therapist · founder of Nour Therapy
   paragraphs:
-    - I became a therapist because I saw what happens when someone is finally listened to properly. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.
-    - 'I work with individuals, couples, teens, and families. Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under everything, grief that came too early, or family expectations that no longer fit the life they are building.'
-    - Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations about who you are allowed to be, you are welcome here. You will not have to explain it from scratch. I offer sessions in English or Farsi, whichever feels more like home for what you need to say.
+    - I became a therapist because I saw what happens when someone is finally given the space to share and be heard. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.
+    - 'Many of my clients arrive carrying something they have never been able to set down: anxiety that hums under each and every move, the stress of how to communicate effectively, boundaries that need to be set, or family expectations that no longer fit the life they are building.'
+    - Culture is often part of that story. If you grew up between languages, translating for your parents, or balancing two sets of expectations and never being 'enough,' you are welcome here. Taking a multicultural perspective allows us to integrate your personal background in how we develop your treatment plan and goals to fit your needs.
     - Therapy works best when it feels like a real relationship, so I will tell you honestly what I think, and I will always leave room for you to disagree.
   tags:
     - Seattle, WA
@@ -30,19 +30,15 @@ services:
   items:
     - title: Individual adults
       color: oklch(0.55 0.15 30)
-      description: Weekly 50-minute sessions for anxiety, low mood, burnout, grief, self-worth, and the big turns — a move, a diagnosis, a divorce. Long-term work or a focused stretch; both are legitimate.
+      description: Weekly 50-minute sessions for anxiety, depression, burnout, first generation hurdles, self-esteem, relationships, and trauma. Our sessions won't disregard the major turning points in your life either.
       links:
         - text: Anxiety therapy
           url: anxiety-therapy-washington/
         - text: Depression therapy
           url: depression-therapy-washington/
-    - title: Couples
+    - title: Relational Challenges
       color: oklch(0.62 0.15 42)
-      description: For partners stuck in the same argument, rebuilding after a betrayal or a hard year, or trying to decide honestly what comes next. 75 minutes, both of you talking to each other more than to me.
-      links: []
-    - title: Teens
-      color: oklch(0.7 0.14 55)
-      description: A space of their own, with clear boundaries about what stays private. I keep parents informed about the shape of the work without reporting on the contents of it.
+      description: Developed mainly for an individual navigating hurdles within their relationship. However, there is space that allows for your partner to be included for a select few sessions if desired.
       links: []
     - title: Families
       color: oklch(0.78 0.13 72)
