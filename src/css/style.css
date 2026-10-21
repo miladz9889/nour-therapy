@@ -308,12 +308,14 @@ h2.section-title {
 .services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-  gap: 1px;
-  background: var(--panel-line);
+  border-top: 1px solid var(--panel-line);
+  border-left: 1px solid var(--panel-line);
 }
 
 .service-card {
   background: var(--bg);
+  border-right: 1px solid var(--panel-line);
+  border-bottom: 1px solid var(--panel-line);
   padding: 34px 36px 38px;
 }
 .service-dash {
