@@ -13,6 +13,8 @@ hero:
   heroImageAlt: Sunrise over the horizon, evoking the warmth of Nour Therapy's Seattle practice
 meaning: '*Nour* means light in Farsi. Not a spotlight — the kind that comes in slowly, late in the day, and makes a room legible again.'
 about:
+  photo: /images/uploads/samar-farange.png
+  photoAlt: Samar Farange
   kicker: Licensed therapist · founder of Nour Therapy
   paragraphs:
     - I became a therapist because I saw what happens when someone is finally given the space to share and be heard. Something in them settles. My work is to create that kind of space and then stay in it with you — warm, curious, and honest about what I notice.

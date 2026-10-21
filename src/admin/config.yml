@@ -95,6 +95,8 @@ collections:
             name: "about"
             widget: "object"
             fields:
+              - { label: "Photo", name: "photo", widget: "image" }
+              - { label: "Photo alt text", name: "photoAlt", widget: "string" }
               - { label: "Kicker line", name: "kicker", widget: "string" }
               - label: "Paragraphs"
                 name: "paragraphs"
