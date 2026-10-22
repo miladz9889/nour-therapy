@@ -4,13 +4,13 @@ seoTitle: "Cultural Identity & Family Expectations Therapy"
 slug: "cultural-identity-therapy"
 order: 5
 eyebrow: "Cultural identity"
-metaDescription: "Online therapy for adults navigating cultural identity and family expectations across Washington state, with Samar Farange, a licensed therapist based in Seattle, WA. Sessions in English or Farsi."
+metaDescription: "Online therapy for adults navigating cultural identity and family expectations across Washington state, with Samar Farange, a licensed therapist based in Bothell, WA. Sessions in English or Farsi."
 ogDescription: "Online therapy for adults navigating cultural identity and family expectations across Washington state, in English or Farsi."
 schemaType: "WebPage"
 sections:
   - type: "text"
     body: |
-      If you grew up translating — not just language, but expectations, between your parents' world and the one you actually live in — you know how heavy that job can get. I'm Samar Farange, a licensed therapist based in Seattle, offering online therapy across Washington state to people navigating identity and family expectations between two cultures, in English or Farsi.
+      If you grew up translating — not just language, but expectations, between your parents' world and the one you actually live in — you know how heavy that job can get. I'm Samar Farange, a licensed therapist based in Bothell, WA, offering online therapy across Washington state to people navigating identity and family expectations between two cultures, in English or Farsi.
 
       This comes up a lot with people who are the first in their family born or raised here, or who moved as kids and grew up straddling two very different sets of rules for who they're allowed to be.
   - type: "list"

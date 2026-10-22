@@ -301,6 +301,8 @@ h2.section-title {
   color: var(--tag-ink);
 }
 
+.about-credential-link { margin: 22px 0 0; }
+
 /* Services */
 
 .services-title { margin: 20px 0 44px; max-width: 26ch; }

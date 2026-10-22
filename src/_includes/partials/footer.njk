@@ -6,6 +6,7 @@
       </div>
       <div class="footer-links">
         {% for link in site.footerLinks %}<a href="{{ navPrefix }}{{ link.href }}">{{ link.label }}</a>
-        {% endfor %}<span>{{ site.copyrightLine }}</span>
+        {% endfor %}{% if site.psychologyTodayUrl %}<a href="{{ site.psychologyTodayUrl }}" target="_blank" rel="noopener">Psychology Today profile</a>
+        {% endif %}<span>{{ site.copyrightLine }}</span>
       </div>
     </footer>

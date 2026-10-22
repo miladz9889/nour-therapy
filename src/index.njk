@@ -11,7 +11,7 @@ eleventyComputed:
 {% extends "layouts/base.njk" %}
 
 {% block structuredData %}
-{% homepageSchema homepageFaq.items %}
+{% homepageSchema homepageFaq.items, site %}
 {% endblock %}
 
 {% block content %}
@@ -58,6 +58,8 @@ eleventyComputed:
             {% for tag in homepage.about.tags %}<span class="tag">{{ tag }}</span>
             {% endfor %}
           </div>
+          {% if site.psychologyTodayUrl %}<p class="about-credential-link"><a href="{{ site.psychologyTodayUrl }}" target="_blank" rel="noopener" class="link-underline">View my profile on Psychology Today ↗</a></p>
+          {% endif %}
         </div>
       </div>
     </section>

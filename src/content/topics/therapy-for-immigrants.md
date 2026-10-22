@@ -3,13 +3,13 @@ title: "Therapy for Immigrants & First-Generation Adults"
 slug: "therapy-for-immigrants"
 order: 4
 eyebrow: "Immigrants & first-generation"
-metaDescription: "Online therapy for immigrants and first-generation adults across Washington state with Samar Farange, a licensed therapist based in Seattle, WA. Sessions in English or Farsi. Free 20-minute consult."
+metaDescription: "Online therapy for immigrants and first-generation adults across Washington state with Samar Farange, a licensed therapist based in Bothell, WA. Sessions in English or Farsi. Free 20-minute consult."
 ogDescription: "Online therapy for immigrants and first-generation adults across Washington state, in English or Farsi."
 schemaType: "WebPage"
 sections:
   - type: "text"
     body: |
-      Building a life in a new country is its own kind of labor, one that rarely gets named as hard even though it is. I'm Samar Farange, a licensed therapist based in Seattle, and I offer online therapy to immigrants and first-generation adults across Washington state, in English or Farsi.
+      Building a life in a new country is its own kind of labor, one that rarely gets named as hard even though it is. I'm Samar Farange, a licensed therapist based in Bothell, WA, and I offer online therapy to immigrants and first-generation adults across Washington state, in English or Farsi.
 
       I work with people who left one place for another — recently or decades ago — and with people raising families here while still carrying ties, obligations, and grief connected to where they came from.
   - type: "list"

@@ -7,7 +7,7 @@ module.exports = {
   permalink: (data) => `${data.slug}/index.html`,
   eleventyComputed: {
     canonicalUrl: (data) => `https://nourtherapy.me/${data.slug}/`,
-    pageTitle: (data) => `${data.seoTitle || data.title} | Nour Therapy, Seattle WA`,
+    pageTitle: (data) => `${data.seoTitle || data.title} | Nour Therapy, Bothell WA`,
     ogTitle: (data) => data.title,
   },
 };

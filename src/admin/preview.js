@@ -200,7 +200,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
         <section>
           <div class="article-eyebrow">${category}</div>
           <h1 class="article-title">${title}</h1>
-          <div class="article-byline">Samar Farange · Licensed Therapist, Seattle, WA</div>
+          <div class="article-byline">Samar Farange · Licensed Therapist, Bothell, WA</div>
 
           ${image ? html`<div class="article-cover"><img src=${image} alt=${imageAlt} /></div>` : null}
 

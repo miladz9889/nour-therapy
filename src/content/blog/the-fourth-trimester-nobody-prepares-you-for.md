@@ -5,7 +5,7 @@ slug: "the-fourth-trimester-nobody-prepares-you-for"
 category: "New parents"
 order: 3
 date: 2026-10-12
-metaDescription: "What's ordinary after a birth, and what deserves help — notes for new and expecting parents, from Samar Farange, a licensed therapist in Seattle, WA."
+metaDescription: "What's ordinary after a birth, and what deserves help — notes for new and expecting parents, from Samar Farange, a licensed therapist in Bothell, WA."
 teaser: "What's ordinary after a birth, and what deserves help."
 image: "https://images.unsplash.com/photo-1512981566925-4937ba1d2b2c?auto=format&fit=crop&w=1200&h=630&q=70"
 imageAlt: "Flowers in a vase on a sunlit desk"

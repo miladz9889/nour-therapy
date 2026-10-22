@@ -5,7 +5,7 @@ slug: "when-calming-down-isnt-the-goal"
 category: "Anxiety"
 order: 1
 date: 2026-10-12
-metaDescription: "Why chasing calm can make anxiety louder, and what to aim for instead — notes from Samar Farange, a licensed therapist in Seattle, WA."
+metaDescription: "Why chasing calm can make anxiety louder, and what to aim for instead — notes from Samar Farange, a licensed therapist in Bothell, WA."
 teaser: "Why chasing calm can make anxiety louder, and what to aim for instead."
 image: "https://images.unsplash.com/photo-1754037783933-c25ff9f68f87?auto=format&fit=crop&w=1200&h=630&q=70"
 imageAlt: "A quiet reading corner with a chair and plant"

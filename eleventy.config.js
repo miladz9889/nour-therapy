@@ -52,25 +52,24 @@ module.exports = function (eleventyConfig) {
     )}\n</script>`;
   }
 
-  eleventyConfig.addShortcode("homepageSchema", function (faq) {
+  eleventyConfig.addShortcode("homepageSchema", function (faq, site) {
     const graph = [
       {
         "@type": "MedicalBusiness",
         "@id": `${SITE_URL}/#business`,
         name: "Nour Therapy",
         url: `${SITE_URL}/`,
-        telephone: "+1-425-315-2487",
+        telephone: site.phoneHref,
         priceRange: "$$",
-        description:
-          "Private therapy practice led by Samar Farange, based in Seattle, WA, offering individual, couples, teen, and family counseling online across Washington state, in English or Farsi.",
+        description: `Private therapy practice led by Samar Farange, based in ${site.city}, ${site.state}, offering individual, couples, teen, and family counseling online across Washington state, in English or Farsi.`,
         address: {
           "@type": "PostalAddress",
-          addressLocality: "Seattle",
-          addressRegion: "WA",
+          addressLocality: site.city,
+          addressRegion: site.state,
           addressCountry: "US",
         },
         areaServed: [
-          { "@type": "City", name: "Seattle" },
+          { "@type": "City", name: site.city },
           { "@type": "State", name: "Washington" },
         ],
         founder: { "@id": `${SITE_URL}/#samar` },
@@ -108,6 +107,7 @@ module.exports = function (eleventyConfig) {
           "Immigrant and first-generation mental health",
         ],
         knowsLanguage: ["English", "Farsi"],
+        ...(site.psychologyTodayUrl ? { sameAs: [site.psychologyTodayUrl] } : {}),
       },
       {
         "@type": "FAQPage",

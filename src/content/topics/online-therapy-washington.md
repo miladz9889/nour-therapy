@@ -4,13 +4,13 @@ slug: "online-therapy-washington"
 order: 1
 eyebrow: "Online therapy"
 titleMaxWidth: "22ch"
-metaDescription: "Online therapy for adults across Washington state with Samar Farange, a licensed therapist based in Seattle, WA. Sessions in English or Farsi. Free 20-minute consult."
+metaDescription: "Online therapy for adults across Washington state with Samar Farange, a licensed therapist based in Bothell, WA. Sessions in English or Farsi. Free 20-minute consult."
 ogDescription: "Online therapy for adults across Washington state, in English or Farsi."
 schemaType: "WebPage"
 sections:
   - type: "text"
     body: |
-      If you're looking for a therapist in Washington state and would rather do it from home than drive across town, online therapy with a licensed provider is a legitimate, well-supported way to do this work — not a lesser version of it. I'm Samar Farange, a licensed therapist based in Seattle, and I see adults across Washington state entirely online, in English or Farsi.
+      If you're looking for a therapist in Washington state and would rather do it from home than drive across town, online therapy with a licensed provider is a legitimate, well-supported way to do this work — not a lesser version of it. I'm Samar Farange, a licensed therapist based in Bothell, WA, and I see adults across Washington state entirely online, in English or Farsi.
   - type: "text"
     heading: "How it works"
     body: |

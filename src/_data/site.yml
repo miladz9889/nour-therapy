@@ -1,11 +1,12 @@
 businessName: Nour Therapy
 therapistName: Samar Farange
 therapistTitle: Licensed therapist
-city: Seattle
+city: Bothell
 state: WA
 phoneDisplay: (425) 409-6557
 phoneHref: '+14254096557'
 siteUrl: https://nourtherapy.me
+psychologyTodayUrl: https://www.psychologytoday.com/us/therapists/samar-farange-bothell-wa/1865106
 nav:
   - label: About Samar
     href: '#about'

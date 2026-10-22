@@ -5,7 +5,7 @@ slug: "honoring-your-parents-and-disappointing-them"
 category: "Family"
 order: 2
 date: 2026-10-12
-metaDescription: "On duty, distance, and the false choice between the two — notes for people living between cultures, from Samar Farange, a licensed therapist in Seattle, WA."
+metaDescription: "On duty, distance, and the false choice between the two — notes for people living between cultures, from Samar Farange, a licensed therapist in Bothell, WA."
 teaser: "On duty, distance, and the false choice between the two."
 image: "https://images.unsplash.com/photo-1573497491208-6b1acb260507?auto=format&fit=crop&w=1200&h=630&q=70"
 imageAlt: "Two people sitting at a table in conversation"
