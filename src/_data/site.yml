@@ -24,7 +24,7 @@ nav:
     href: '#contact'
 footerLinks:
   - label: Good Faith Estimate
-    href: '#faq'
+    href: '/good-faith-estimate/'
   - label: Privacy & HIPAA
     href: '/privacy-hipaa/'
 copyrightLine: © 2026 Nour Therapy
