@@ -23,8 +23,9 @@ collections:
           - { label: "Business name", name: "businessName", widget: "string" }
           - { label: "Therapist name", name: "therapistName", widget: "string" }
           - { label: "Therapist title", name: "therapistTitle", widget: "string" }
-          - { label: "City", name: "city", widget: "string" }
+          - { label: "City", name: "city", widget: "string", hint: "Used behind the scenes for search-engine listings. Not shown directly on the site — see 'Public location' below for what visitors see." }
           - { label: "State (abbreviation)", name: "state", widget: "string" }
+          - { label: "Public location (shown in the site footer)", name: "displayLocation", widget: "string" }
           - { label: "Phone (how it's displayed, e.g. (425) 409-6557)", name: "phoneDisplay", widget: "string" }
           - { label: "Phone (for click-to-call links, e.g. +14254096557)", name: "phoneHref", widget: "string" }
           - { label: "Site URL", name: "siteUrl", widget: "string" }

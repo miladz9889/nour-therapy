@@ -10,7 +10,7 @@ medicalCondition: "Depression"
 sections:
   - type: "text"
     body: |
-      Depression doesn't always look like sadness. Sometimes it looks like going flat — losing interest in things that used to matter, running on autopilot, or feeling like you're watching your own life from a slight distance. I'm Samar Farange, a licensed therapist based in Bothell, WA, offering online depression therapy to adults across Washington state, in English or Farsi.
+      Depression doesn't always look like sadness. Sometimes it looks like going flat — losing interest in things that used to matter, running on autopilot, or feeling like you're watching your own life from a slight distance. I'm Samar Farange, a licensed therapist offering online depression therapy to adults across Washington state, in English or Farsi.
 
       A lot of people wait a long time before reaching out, because depression is good at convincing you that nothing will help, or that you don't deserve the effort. Neither of those things has to be true for you to start.
   - type: "list"

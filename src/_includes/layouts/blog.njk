@@ -9,7 +9,7 @@
       <a href="../index.html#writing" class="article-back link-underline">&larr; All writing</a>
       <div class="article-eyebrow">{{ category }}</div>
       <h1 class="article-title">{{ title }}</h1>
-      <div class="article-byline">{{ site.therapistName }} · Licensed Therapist, {{ site.city }}, {{ site.state }} · {{ date | dateDisplay }}</div>
+      <div class="article-byline">{{ site.therapistName }} · Licensed Therapist, {{ site.displayLocation }} · {{ date | dateDisplay }}</div>
 
       <div class="article-cover">
         <img src="{{ image }}" alt="{{ imageAlt }}" width="1200" height="630" fetchpriority="high">

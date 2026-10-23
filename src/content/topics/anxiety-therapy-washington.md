@@ -10,7 +10,7 @@ medicalCondition: "Anxiety"
 sections:
   - type: "text"
     body: |
-      If anxiety has started running the show — the racing thoughts at 2am, the dread before ordinary things, the sense that something bad is always about to happen — you don't have to white-knuckle it alone. I'm Samar Farange, a licensed therapist based in Bothell, WA, and I offer online anxiety therapy to adults anywhere in Washington state, in English or Farsi.
+      If anxiety has started running the show — the racing thoughts at 2am, the dread before ordinary things, the sense that something bad is always about to happen — you don't have to white-knuckle it alone. I'm Samar Farange, a licensed therapist, and I offer online anxiety therapy to adults anywhere in Washington state, in English or Farsi.
 
       Most people I see for anxiety aren't in crisis. They're functioning — going to work, showing up for people — while carrying something exhausting underneath. That's enough reason to start.
   - type: "list"
