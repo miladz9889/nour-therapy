@@ -627,6 +627,18 @@ h2.section-title {
   margin-top: 18px;
 }
 
+.legal-updated {
+  font-size: 13.5px;
+  color: var(--muted);
+  margin-top: 12px;
+}
+
+.legal-back {
+  margin-top: 56px;
+  padding-top: 32px;
+  border-top: 1px solid var(--panel-line);
+}
+
 .article-cover {
   margin-top: 44px;
   position: relative;

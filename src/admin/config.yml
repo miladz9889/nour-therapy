@@ -223,6 +223,40 @@ collections:
           - { label: "Link text", name: "text", widget: "string" }
           - { label: "URL", name: "url", widget: "string" }
 
+  - name: "legal"
+    label: "Privacy & HIPAA Page"
+    description: "The standalone Privacy & HIPAA page linked from the site footer."
+    files:
+      - file: "src/content/legal/privacy-hipaa.md"
+        label: "Privacy & HIPAA Notice"
+        name: "privacyHipaa"
+        fields:
+          - { label: "Page title", name: "title", widget: "string" }
+          - { label: "Eyebrow label", name: "eyebrow", widget: "string" }
+          - { label: "Meta description (for Google)", name: "metaDescription", widget: "text" }
+          - { label: "Social share description", name: "ogDescription", widget: "text" }
+          - { label: "Last updated (e.g. October 22, 2026)", name: "lastUpdated", widget: "string" }
+          - label: "Page sections"
+            name: "sections"
+            widget: "list"
+            summary: "{{fields.heading}}"
+            types:
+              - label: "Paragraph(s)"
+                name: "text"
+                widget: "object"
+                fields:
+                  - { label: "Heading (leave blank for the opening section)", name: "heading", widget: "string", required: false }
+                  - { label: "Body text (leave a blank line between paragraphs; use the link button for links)", name: "body", widget: "markdown", buttons: ["bold", "italic", "link"], editor_components: [] }
+              - label: "Bulleted list"
+                name: "list"
+                widget: "object"
+                fields:
+                  - { label: "Heading", name: "heading", widget: "string" }
+                  - label: "Items"
+                    name: "items"
+                    widget: "list"
+                    field: { label: "Item (can include [link text](url))", name: "item", widget: "string" }
+
   - name: "blog"
     label: "Writing (Blog Articles)"
     description: "Articles that appear in the homepage's Writing section and at /writing/your-article.html."

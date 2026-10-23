@@ -5,7 +5,7 @@
         <div class="footer-sub">{{ site.city }}, {{ site.state }} · <a href="tel:{{ site.phoneHref }}">{{ site.phoneDisplay }}</a></div>
       </div>
       <div class="footer-links">
-        {% for link in site.footerLinks %}<a href="{{ navPrefix }}{{ link.href }}">{{ link.label }}</a>
+        {% for link in site.footerLinks %}<a href="{{ link.href if link.href.startsWith('#') == false else navPrefix + link.href }}">{{ link.label }}</a>
         {% endfor %}{% if site.psychologyTodayUrl %}<a href="{{ site.psychologyTodayUrl }}" target="_blank" rel="noopener">Psychology Today profile</a>
         {% endif %}<span>{{ site.copyrightLine }}</span>
       </div>

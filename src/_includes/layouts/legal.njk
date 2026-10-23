@@ -1,0 +1,27 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+    <section>
+      <div class="article-eyebrow">{{ eyebrow }}</div>
+      <h1 class="article-title" style="max-width:30ch;">{{ title }}</h1>
+      {% if lastUpdated %}<p class="legal-updated">Last updated {{ lastUpdated }}</p>{% endif %}
+
+      {% for section in sections %}
+      {% if section.heading %}<h2 class="page-subhead">{{ section.heading }}</h2>{% endif %}
+      {% if section.type == "text" %}
+      <div class="article-body">
+        {{ section.body | markdownify | safe }}
+      </div>
+      {% elif section.type == "list" %}
+      <ul class="page-list">
+        {% for item in section.items %}<li>{{ item | markdownInline | safe }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% endfor %}
+
+      <p class="legal-back"><a href="../index.html" class="link-underline">← Back to home</a></p>
+    </section>
+
+{% include "partials/footer.njk" %}
+{% endblock %}
