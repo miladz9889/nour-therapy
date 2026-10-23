@@ -1,19 +1,17 @@
 items:
-  - question: "How do I know if I need therapy?"
-    answer: "You don't need a crisis to qualify. If something has been sitting on you and talking to the people around you hasn't moved it, that's reason enough. The consult call exists partly so you can ask me this directly."
-  - question: "Do you speak Farsi?"
-    answer: "Yes — sessions are available in English or Farsi, whichever feels more natural for what we're talking about. Some people switch between the two in the same conversation, and that's fine too."
-  - question: "What actually happens in a session?"
-    answer: "We talk, but with more structure than a conversation with a friend. I'll ask questions, notice patterns out loud, and sometimes suggest something to try between sessions. You are never obligated to discuss something before you're ready."
-  - question: "How long will this take?"
-    answer: "Some people come for a few months around a specific difficulty. Others stay for years because the work keeps being useful. We'll revisit it regularly, and ending well is part of the work, not a failure of it."
-  - question: "Is what I say confidential?"
-    answer: "Yes, with the narrow legal exceptions I'm required to explain at the start: risk of serious harm to yourself or someone else, and suspected abuse of a child or vulnerable adult. I'll walk you through exactly what that means in our first session."
-  - question: "My teenager doesn't want to come."
-    answer: "That's normal and workable. I usually start with a parent call, then meet them once with no expectation of a second. Most of the time the reluctance is about control, so I hand them as much of it as I can."
-  - question: "Is online therapy as effective as in-person?"
-    answer: "For most of what I treat, yes — the research is reassuring. What matters most is consistency and having a private, quiet place to sit for the session."
-  - question: "Do you offer in-person sessions?"
-    answer: "Not currently — sessions are online only right now, for anyone physically located in Washington state. If that changes, it'll be reflected here."
-  - question: "Do you work with clients outside Washington?"
-    answer: "I'm licensed to practice in Washington, so sessions need to happen while you're physically located in the state. If you're elsewhere, I'm glad to help point you toward someone licensed where you are."
+  - question: How do I know if I need therapy?
+    answer: You don't need a crisis to qualify. If something has been sitting with you and talking to the people around you hasn't moved it, that's reason enough. Schedule a consultation to discuss further and determine how therapy can be helpful.
+  - question: What actually happens in a session?
+    answer: We spend 50 minutes in a structured conversation where I will ask questions, help you notice patterns, and suggest a variety of tools and skills to try between sessions. You are never obligated to discuss something before you're ready to do so.
+  - question: How long do I stay in therapy?
+    answer: Depending on your goals, we can focus on a short term, skills based path to reach them within a few months or explore more long term care that allows us to explore and dive deeper into topics for a few years. Know that we will visit your goals regularly to re-evaluate, and an end to therapy is part of the work.
+  - question: Is what I say confidential?
+    answer: Yes, with the narrow legal and ethical exceptions as a Washington state mandated reporter. I will walk you through exactly what that means in our first session.
+  - question: What if the individual that I want to join therapy with me for a few sessions doesn't want to attend?
+    answer: That's normal and workable. I usually start with a phone call to help build rapport, explore their reluctance, and explain how attending can be beneficial.  Most of the time the hesitation stems from a place of fear, is about control, or just requires a better understanding of the purpose and benefits of attending.
+  - question: Is online therapy as effective as in-person?
+    answer: For what I treat, yes; the research is reassuring. In fact, removing the hurdles of travel and providing flexibility with scheduling can result in sticking with treatment for longer. What matters most is consistency and having a private, distraction free environment to be able to participate in the session.
+  - question: Do you offer in-person sessions?
+    answer: Not currently. Sessions are online only right now for those who are physically located in Washington state. If that changes, it'll be reflected here.
+  - question: Do you work with clients outside Washington?
+    answer: I'm licensed to practice in Washington state, so sessions need to happen while you're physically located in the state. If you're traveling, please let me know so we can schedule accordingly upon your return.
