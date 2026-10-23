@@ -14,8 +14,10 @@ teaserImageAlt: "Flowers in a vase on a sunlit desk"
 disclaimer: "This reflects general patterns I see in practice, not individualized advice. If you're in crisis, call or text 988, or go to your nearest emergency room."
 ctaText: "If the two of you feel more like roommates than partners right now, that's workable. The first 20-minute call is free."
 related:
-  - text: "Who I work with — couples & family support"
-    url: "../index.html#services"
+  - text: "Couples Therapy in Washington"
+    url: "../couples-therapy-washington/"
+  - text: "Family Therapy in Washington"
+    url: "../family-therapy-washington/"
   - text: "Online Therapy for Adults in Washington"
     url: "../online-therapy-washington/"
 ---

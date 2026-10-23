@@ -41,11 +41,15 @@ services:
     - title: Relational Challenges
       color: oklch(0.62 0.15 42)
       description: Developed mainly for an individual navigating hurdles within their relationship. However, there is space that allows for your partner to be included for a select few sessions if desired.
-      links: []
+      links:
+        - text: Couples therapy
+          url: couples-therapy-washington/
     - title: Family Conflict
       color: oklch(0.78 0.13 72)
       description: When the trouble lives between people rather than inside one of them. We look at the patterns, the loyalties, and the things everyone knows but no one says. This is where we have an opportunity to pull in willing family members as needed.
-      links: []
+      links:
+        - text: Family therapy
+          url: family-therapy-washington/
     - title: Immigrants & first-gen
       color: oklch(0.6 0.13 22)
       description: Displacement, homesickness, obligation, and the quiet cost of being the one who translates. Belonging in two places, or feeling like you belong in neither.

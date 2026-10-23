@@ -32,6 +32,8 @@ faq:
     answer: "That's common, and it's okay. This is your space, not a family intervention, unless and until you want it to include anyone else."
 ctaText: "If this is the kind of thing you're sitting with, I'd like to hear about it. The first 20-minute call is free."
 related:
+  - text: "Family Therapy in Washington"
+    url: "../family-therapy-washington/"
   - text: "Therapy for Immigrants & First-Generation Adults"
     url: "../therapy-for-immigrants/"
   - text: "Online Therapy for Adults in Washington"
