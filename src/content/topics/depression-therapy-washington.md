@@ -20,7 +20,7 @@ sections:
       - "Loss of interest in things you used to enjoy"
       - "Exhaustion that sleep doesn't fix"
       - "Depression tied to a specific loss, transition, or diagnosis"
-      - "Postpartum depression — see [The Fourth Trimester Nobody Prepares You For](../writing/the-fourth-trimester-nobody-prepares-you-for.html)"
+      - "Postpartum depression"
       - "Depression that coexists with anxiety or burnout"
   - type: "text"
     heading: "What sessions look like"
@@ -37,6 +37,4 @@ related:
     url: "../online-therapy-washington/"
   - text: "Online Anxiety Therapy in Washington"
     url: "../anxiety-therapy-washington/"
-  - text: "The Fourth Trimester Nobody Prepares You For"
-    url: "../writing/the-fourth-trimester-nobody-prepares-you-for.html"
 ---
