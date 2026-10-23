@@ -309,7 +309,7 @@ h2.section-title {
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   border-top: 1px solid var(--panel-line);
   border-left: 1px solid var(--panel-line);
 }
@@ -588,7 +588,8 @@ h2.section-title {
 
   .about-grid,
   .fees-grid,
-  .faq-grid {
+  .faq-grid,
+  .services-grid {
     grid-template-columns: 1fr;
   }
   .about-photo { max-width: 260px; }
