@@ -7,10 +7,10 @@ order: 3
 date: 2026-10-12
 metaDescription: "How ordinary stress quietly turns partners into roommates, and when that drift is worth getting support for — notes from Samar Farange, a licensed therapist in Bothell, WA."
 teaser: "How ordinary stress quietly turns partners into roommates — and when that drift is worth getting support for."
-image: "https://images.unsplash.com/photo-1512981566925-4937ba1d2b2c?auto=format&fit=crop&w=1200&h=630&q=70"
-imageAlt: "Flowers in a vase on a sunlit desk"
-teaserImage: "https://images.unsplash.com/photo-1512981566925-4937ba1d2b2c?auto=format&fit=crop&w=800&h=400&q=70"
-teaserImageAlt: "Flowers in a vase on a sunlit desk"
+image: "https://images.unsplash.com/photo-1691044892876-b128d353e128?auto=format&fit=crop&w=1200&h=630&q=70"
+imageAlt: "Two matching chairs facing each other by a window, with an empty side table between them"
+teaserImage: "https://images.unsplash.com/photo-1691044892876-b128d353e128?auto=format&fit=crop&w=800&h=400&q=70"
+teaserImageAlt: "Two matching chairs facing each other by a window"
 disclaimer: "This reflects general patterns I see in practice, not individualized advice. If you're in crisis, call or text 988, or go to your nearest emergency room."
 ctaText: "If the two of you feel more like roommates than partners right now, that's workable. The first 20-minute call is free."
 related:
