@@ -24,7 +24,7 @@ A lot of my clients who grew up between cultures describe the same bind, even wh
 
 I don't think that's actually the choice, even though it feels like that in the moment. It's a false binary that guilt is very good at manufacturing, and once you're inside it, almost any decision, a career change, who you marry, how often you call, where you live, gets weighed against an impossible standard: does this prove I still love them enough.
 
-Here's the distinction I keep coming back to with clients. Honoring someone is about how you treat them, with respect, care, and real effort to understand where they're coming from. It is not the same as organizing every decision in your life around their comfort. You can call your mother every week, show up for the holidays that matter to her, and still make a choice she doesn't like. Both sides can be true at the same time.
+Here's the distinction I keep coming back to with clients. Honoring someone is about how you treat them, with respect, care, and real effort to understand where they're coming from. It is not the same as organizing every decision in your life around their comfort. You can call your parent every week, show up for the holidays that matter to her, and still make a choice she doesn't like. Both sides can be true at the same time.
 
 Disappointing a parent in one specific decision is not the same as abandoning them, even though it can feel exactly that large in the moment. Especially if you were raised to read their disappointment as a referendum on your character. Untangling those two things is slow work. The guilt doesn't go away because you understood the argument; it loosens because you practiced tolerating it enough times to notice you survived.
 
