@@ -64,7 +64,7 @@ module.exports = function (eleventyConfig) {
       {
         "@type": "MedicalBusiness",
         "@id": `${SITE_URL}/#business`,
-        name: "Nour Therapy",
+        name: "Nour Therapy, PLLC",
         url: `${SITE_URL}/`,
         telephone: site.phoneHref,
         priceRange: "$$",

@@ -8,7 +8,7 @@ lastUpdated: "October 22, 2026"
 sections:
   - type: "text"
     body: |
-      This notice explains how your information is handled at Nour Therapy, a solo private practice. It covers both your protected health information under HIPAA if you're a client, and the limited information this website itself collects. I take this seriously — it's your story, not mine to pass around.
+      This notice explains how your information is handled at Nour Therapy, PLLC, a solo private practice. It covers both your protected health information under HIPAA if you're a client, and the limited information this website itself collects. I take this seriously — it's your story, not mine to pass around.
   - type: "text"
     heading: "Who sees your information"
     body: |
