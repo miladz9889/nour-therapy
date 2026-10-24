@@ -44,6 +44,13 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.setLibrary("md", markdownIt);
 
+  function toPlainText(markdown) {
+    return markdown
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+      .replace(/\*\*([^*]+)\*\*/g, "$1")
+      .replace(/\*([^*]+)\*/g, "$1");
+  }
+
   function ldJson(graph) {
     return `<script type="application/ld+json">\n${JSON.stringify(
       { "@context": "https://schema.org", "@graph": graph },
@@ -115,7 +122,7 @@ module.exports = function (eleventyConfig) {
         mainEntity: faq.map((f) => ({
           "@type": "Question",
           name: f.question,
-          acceptedAnswer: { "@type": "Answer", text: f.answer },
+          acceptedAnswer: { "@type": "Answer", text: toPlainText(f.answer) },
         })),
       },
     ];
@@ -141,7 +148,7 @@ module.exports = function (eleventyConfig) {
         mainEntity: faq.map((f) => ({
           "@type": "Question",
           name: f.question,
-          acceptedAnswer: { "@type": "Answer", text: f.answer },
+          acceptedAnswer: { "@type": "Answer", text: toPlainText(f.answer) },
         })),
       },
     ];

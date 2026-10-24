@@ -29,7 +29,7 @@
             <span>{{ item.question }}</span>
             <span class="plus">+</span>
           </summary>
-          <p>{{ item.answer }}</p>
+          <p>{{ item.answer | markdownInline | safe }}</p>
         </details>
         {% endfor %}
       </div>
