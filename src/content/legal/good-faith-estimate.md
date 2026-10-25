@@ -35,5 +35,5 @@ sections:
   - type: "text"
     heading: "Questions or a bill that doesn't match your estimate"
     body: |
-      If something you're billed comes in substantially higher than the estimate you were given, you have the right to dispute it — contact me directly first at (425) 409-6557, or use the federal patient-provider dispute resolution process described at [www.cms.gov/nosurprises](https://www.cms.gov/nosurprises). You can also request an updated written estimate from me at any time.
+      If something you're billed comes in substantially higher than the estimate you were given, you have the right to dispute it — contact me directly first at (425) 780-6524, or use the federal patient-provider dispute resolution process described at [www.cms.gov/nosurprises](https://www.cms.gov/nosurprises). You can also request an updated written estimate from me at any time.
 ---
