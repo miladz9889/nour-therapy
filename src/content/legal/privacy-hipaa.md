@@ -4,7 +4,7 @@ slug: "privacy-hipaa"
 eyebrow: "Privacy & HIPAA"
 metaDescription: "How Nour Therapy protects client privacy and health information, including a HIPAA notice for telehealth sessions with Samar Farange, a licensed therapist in Bothell, WA."
 ogDescription: "How client privacy and health information are protected at Nour Therapy."
-lastUpdated: "October 22, 2026"
+lastUpdated: "October 26, 2026"
 sections:
   - type: "text"
     body: |
@@ -35,7 +35,7 @@ sections:
   - type: "text"
     heading: "This website"
     body: |
-      This site doesn't run advertising trackers or analytics software, and it doesn't use cookies of its own. The only third-party service embedded on the site is Calendly, used for the booking widget on the contact section — scheduling through it is subject to [Calendly's own privacy policy](https://calendly.com/privacy). My website host keeps basic, routine server logs (like any website), which I don't access for anything beyond keeping the site running.
+      This site uses Google Analytics to understand traffic — which pages get visited, roughly how people found the site, and general device and location information. This data is aggregated and isn't used to identify you personally; I don't use Google Analytics' ad-personalization or cross-site tracking features. You can opt out using the [Google Analytics Opt-out Browser Add-on](https://tools.google.com/dlpage/gaoptout), or a browser extension that blocks analytics scripts. The only other third-party service embedded on the site is Calendly, used for the booking widget on the contact section — scheduling through it is subject to [Calendly's own privacy policy](https://calendly.com/privacy). My website host keeps basic, routine server logs (like any website), which I don't access for anything beyond keeping the site running.
   - type: "text"
     heading: "Questions or concerns"
     body: |

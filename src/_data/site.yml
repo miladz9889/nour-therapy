@@ -8,6 +8,7 @@ phoneDisplay: (425) 780-6524
 phoneHref: '+14257806524'
 siteUrl: https://nourtherapy.me
 psychologyTodayUrl: https://www.psychologytoday.com/us/therapists/samar-farange-bothell-wa/1865106
+googleAnalyticsId: G-T605BWPG7B
 nav:
   - label: About Samar
     href: '#about'
