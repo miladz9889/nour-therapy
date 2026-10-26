@@ -7,6 +7,36 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', '{{ site.googleAnalyticsId }}');
+
+  document.addEventListener('click', function (e) {
+    var bookBtn = e.target.closest('a.btn');
+    if (bookBtn) {
+      gtag('event', 'book_consult_click', {
+        link_location: bookBtn.closest('.sidebar-bottom') ? 'sidebar' : bookBtn.closest('.hero-actions') ? 'hero' : bookBtn.closest('.article-cta') ? 'article_cta' : 'other',
+        link_text: bookBtn.textContent.trim()
+      });
+      return;
+    }
+    var telLink = e.target.closest('a[href^="tel:"]');
+    if (telLink) {
+      gtag('event', 'phone_click', {
+        link_location: telLink.closest('.sidebar') ? 'sidebar' : telLink.closest('.site-footer') ? 'footer' : 'other'
+      });
+      return;
+    }
+    var ptLink = e.target.closest('a[href*="psychologytoday.com"]');
+    if (ptLink) {
+      gtag('event', 'psychology_today_click', {
+        link_location: ptLink.closest('.site-footer') ? 'footer' : 'about_section'
+      });
+    }
+  });
+
+  window.addEventListener('message', function (e) {
+    if (e.data && e.data.event === 'calendly.event_scheduled') {
+      gtag('event', 'consult_scheduled');
+    }
+  });
 </script>
 {% endif %}
 <meta charset="utf-8">
