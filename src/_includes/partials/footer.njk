@@ -7,6 +7,10 @@
       <div class="footer-links">
         {% for link in site.footerLinks %}<a href="{{ link.href if link.href.startsWith('#') == false else navPrefix + link.href }}">{{ link.label }}</a>
         {% endfor %}{% if site.psychologyTodayUrl %}<a href="{{ site.psychologyTodayUrl }}" target="_blank" rel="noopener">Psychology Today Profile</a>
+        {% endif %}{% if site.instagramUrl %}<a href="{{ site.instagramUrl }}" target="_blank" rel="noopener">Instagram</a>
+        {% endif %}{% if site.facebookUrl %}<a href="{{ site.facebookUrl }}" target="_blank" rel="noopener">Facebook</a>
+        {% endif %}{% if site.linkedinUrl %}<a href="{{ site.linkedinUrl }}" target="_blank" rel="noopener">LinkedIn</a>
+        {% endif %}{% if site.googleBusinessUrl %}<a href="{{ site.googleBusinessUrl }}" target="_blank" rel="noopener">Google Business Profile</a>
         {% endif %}<span>{{ site.copyrightLine }}</span>
       </div>
     </footer>
