@@ -549,6 +549,9 @@ h2.section-title {
   flex-wrap: wrap;
 }
 .footer-links a { color: var(--muted-2); }
+.footer-links a.icon-link { display: inline-flex; align-items: center; }
+.footer-links a.icon-link:hover { text-decoration: none; }
+.footer-links a.icon-link svg { width: 17px; height: 17px; }
 
 /* Responsive */
 
