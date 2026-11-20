@@ -162,6 +162,10 @@ eleventyComputed:
         <div class="eyebrow contact-eyebrow">Get in touch</div>
         <h2 class="section-title contact-title">Start with a free 20-minute call.</h2>
         <p class="contact-lede">{{ homepage.contact.lede }}</p>
+        <div class="contact-direct">
+          <p class="contact-phone"><a href="tel:{{ site.phoneHref }}">{{ site.phoneDisplay }}</a></p>
+          <p class="contact-phone"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        </div>
       </div>
       <div class="calendly-inline-widget" data-url="{{ homepage.contact.calendlyUrl }}" style="min-width:320px;height:700px;"></div>
     </section>
